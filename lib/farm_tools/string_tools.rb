@@ -26,7 +26,8 @@ module StringTools
     years = Integer(float)
     decimal_months = float - years
     months =  Integer((decimal_months * 12).round)
-    str = "#{pluralize(years, 'year')}"
+    str = "#{years} "
+    str += 'year'.pluralize(years)
     str += " and #{pluralize(months, 'month')}" unless months == 0
     str
   end
