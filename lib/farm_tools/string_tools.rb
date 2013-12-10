@@ -4,8 +4,6 @@ module StringTools
 
   SUPER_SPLITTER = / ?[,;|-] ?/
 
-  #todo import specs from TherapyJobs for next 2 functions
-
   def articleator(word, capitalize = false)
     an_consonants = %w|honest honor slp|
     a_vowels = %w|uni|
