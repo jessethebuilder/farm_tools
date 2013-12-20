@@ -43,6 +43,37 @@ describe 'monkey_patches.rb' do
         a.match_at('h').should == nil
       end
     end
+
+    describe '#move(to, from)' do
+      let(:arr){ [1,2,3,4] }
+      it 'should change the order of elements in an array by their index value' do
+        arr.move(2, 3).should == [1,2,4,3]
+        arr.should == [1,2,3,4]
+      end
+
+      it 'should work regardless of how the move function is ordered' do
+        arr.move(3, 2).should == [1, 2, 4, 3]
+      end
+
+      it 'should work if there are identical values in the array' do
+        arr2 = [1, 1, 2, 2]
+        arr2.move(1, 2).should == [1, 2, 1, 2]
+      end
+
+      it 'should return an Arry identical to the original if to == from' do
+        arr.move(1, 1).should == [1, 2, 3, 4]
+      end
+
+      it 'should raise an error of to or from is out of array range' do
+        expect{ arr.move(10, 1) }.to raise_error(IndexError, /from parameter/)
+        expect{ arr.move(1, 10) }.to raise_error(IndexError, /to parameter/)
+      end
+
+      specify '! version mutates original array' do
+        arr.move!(2, 3)
+        arr.should == [1,2,4,3]
+      end
+    end
   end
 
 

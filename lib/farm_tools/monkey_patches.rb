@@ -36,4 +36,15 @@ class Array
     end
     nil
   end
+
+  def move(from, to)
+    arr = self.dup
+    arr.move!(from, to)
+  end
+
+  def move!(from, to)
+    raise IndexError, 'from parameter is out of bounds' if self.fetch(from, IndexError) == IndexError
+    raise IndexError, 'to parameter is out of bounds' if self.fetch(to, IndexError) == IndexError
+    self.insert(to, delete_at(from))
+  end
 end
