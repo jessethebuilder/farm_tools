@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d09e1885-e9e5-46d3-afd4-3a8b55f6a20e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/farm_tools/monkey_patches.rb" afterPath="$PROJECT_DIR$/lib/farm_tools/monkey_patches.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/lib/monkey_patches_spec.rb" afterPath="$PROJECT_DIR$/spec/lib/monkey_patches_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="farm_tools.iws" />
@@ -17,7 +18,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/farm_tools@db_migrate__farm_tools.coverage" NAME="db:migrate: farm_tools Coverage Results" MODIFIED="1385715905996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
     <SUITE FILE_PATH="coverage/farm_tools@IRB_console__farm_tools.coverage" NAME="IRB console: farm_tools Coverage Results" MODIFIED="1387579609915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
-    <SUITE FILE_PATH="coverage/farm_tools@spec__farm_tools.coverage" NAME="spec: farm_tools Coverage Results" MODIFIED="1387586303895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
+    <SUITE FILE_PATH="coverage/farm_tools@spec__farm_tools.coverage" NAME="spec: farm_tools Coverage Results" MODIFIED="1387586950822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
     <SUITE FILE_PATH="coverage/farm_tools@db_rollback__farm_tools.coverage" NAME="db:rollback: farm_tools Coverage Results" MODIFIED="1385713946173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -35,7 +36,7 @@
       <file leaf-file-name="monkey_patches.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/farm_tools/monkey_patches.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="24" selection-start="1379" selection-end="1379" vertical-scroll-proportion="0.62464184" vertical-offset="683" max-vertical-offset="1088">
+            <state line="52" column="15" selection-start="1353" selection-end="1353" vertical-scroll-proportion="0.57593125" vertical-offset="683" max-vertical-offset="1088">
               <folding />
             </state>
           </provider>
@@ -44,7 +45,7 @@
       <file leaf-file-name="monkey_patches_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/lib/monkey_patches_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="0" selection-start="1506" selection-end="1506" vertical-scroll-proportion="0.0" vertical-offset="700" max-vertical-offset="1666">
+            <state line="83" column="0" selection-start="2563" selection-end="2563" vertical-scroll-proportion="0.0" vertical-offset="1295" max-vertical-offset="1683">
               <folding />
             </state>
           </provider>
@@ -525,7 +526,11 @@
       <created>1387584727292</created>
       <updated>1387584727292</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added Array #out_of_range?(index)&#10;">
+      <created>1387586341620</created>
+      <updated>1387586341620</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -571,7 +576,8 @@
     <MESSAGE value="Added #array_for_select&#10;" />
     <MESSAGE value="Added to Array: move(from, to, move!(from, to)&#10;" />
     <MESSAGE value="Added Array #out_of_range?(index)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Array #out_of_range?(index)" />
+    <MESSAGE value="Added Array #out_of_range?(index)&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Array #out_of_range?(index)&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -844,14 +850,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/lib/monkey_patches_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="0" selection-start="1506" selection-end="1506" vertical-scroll-proportion="0.0" vertical-offset="700" max-vertical-offset="1666">
+        <state line="83" column="0" selection-start="2563" selection-end="2563" vertical-scroll-proportion="0.0" vertical-offset="1295" max-vertical-offset="1683">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/farm_tools/monkey_patches.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="24" selection-start="1379" selection-end="1379" vertical-scroll-proportion="0.62464184" vertical-offset="683" max-vertical-offset="1088">
+        <state line="52" column="15" selection-start="1353" selection-end="1353" vertical-scroll-proportion="0.57593125" vertical-offset="683" max-vertical-offset="1088">
           <folding />
         </state>
       </provider>

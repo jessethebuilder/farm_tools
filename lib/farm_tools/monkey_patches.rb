@@ -50,7 +50,7 @@ class Array
 
   def out_of_range?(index)
     ret = true
-    if index > 0
+    if index >= 0
       ret = false unless self.fetch(index, IndexError) == IndexError
     end
     ret

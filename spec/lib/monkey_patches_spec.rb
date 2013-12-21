@@ -79,12 +79,13 @@ describe 'monkey_patches.rb' do
 
     describe '#out_of_range?(index)' do
       it 'should return true if index is out of range' do
-        arr.out_of_range?(4) == true
-        arr.out_of_range?(3) == false
+        arr.out_of_range?(4).should == true
+        arr.out_of_range?(3).should == false
+        arr.out_of_range?(0).should == false
       end
 
       it 'should return true if index goes below 0' do
-        arr.out_of_range?(-1) == true
+        arr.out_of_range?(-1).should == true
       end
     end
   end
