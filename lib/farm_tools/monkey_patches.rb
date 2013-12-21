@@ -43,17 +43,15 @@ class Array
   end
 
   def move!(from, to)
-    raise IndexError, 'from parameter is out of bounds' if self.fetch(from, IndexError) == IndexError
-    raise IndexError, 'to parameter is out of bounds' if self.fetch(to, IndexError) == IndexError
+    raise IndexError, 'from parameter is out of bounds' if self.out_of_range?(from)
+    raise IndexError, 'to parameter is out of bounds' if self.out_of_range?(to)
     self.insert(to, delete_at(from))
   end
 
   def out_of_range?(index)
     ret = true
     if index > 0
-      ret = false if self.fetch(index, IndexError) == IndexError
-    else
-      ret = false
+      ret = false unless self.fetch(index, IndexError) == IndexError
     end
     ret
   end
