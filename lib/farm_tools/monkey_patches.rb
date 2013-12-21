@@ -47,4 +47,14 @@ class Array
     raise IndexError, 'to parameter is out of bounds' if self.fetch(to, IndexError) == IndexError
     self.insert(to, delete_at(from))
   end
+
+  def out_of_range?(index)
+    ret = true
+    if index > 0
+      ret = false if self.fetch(index, IndexError) == IndexError
+    else
+      ret = false
+    end
+    ret
+  end
 end

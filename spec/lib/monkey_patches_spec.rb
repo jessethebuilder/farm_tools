@@ -29,6 +29,8 @@ describe 'monkey_patches.rb' do
   end
 
   describe 'Array' do
+    let(:arr){ [1,2,3,4] }
+
     describe '#match_at' do
       a = %w|abc 123 xyz|
       specify 'it should return the index position of the FIRST item that matches regex' do
@@ -45,7 +47,7 @@ describe 'monkey_patches.rb' do
     end
 
     describe '#move(to, from)' do
-      let(:arr){ [1,2,3,4] }
+
       it 'should change the order of elements in an array by their index value' do
         arr.move(2, 3).should == [1,2,4,3]
         arr.should == [1,2,3,4]
@@ -72,6 +74,17 @@ describe 'monkey_patches.rb' do
       specify '! version mutates original array' do
         arr.move!(2, 3)
         arr.should == [1,2,4,3]
+      end
+    end
+
+    describe '#out_of_range?(index)' do
+      it 'should return true if index is out of range' do
+        arr.out_of_range?(4) == true
+        arr.out_of_range?(3) == false
+      end
+
+      it 'should return true if index goes below 0' do
+        arr.out_of_range?(-1) == true
       end
     end
   end
