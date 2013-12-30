@@ -20,3 +20,22 @@ gem "jquery-rails"
 gem 'rspec'
 #gem 'active_resource'
 
+gem 'activesupport'
+
+group :test, :development do
+  gem 'faker'
+  gem 'rspec-rails'
+  gem 'wdm'
+  gem 'database_cleaner', '~> 1.0.0rc'
+  gem 'timecop'
+end
+
+group :test do
+  gem 'factory_girl_rails'
+  gem 'capybara'
+  gem 'guard-rspec'
+  gem 'selenium-webdriver'
+  gem 'shoulda'
+  gem 'launchy', '~> 2.3.0'
+  #gem 'webrat'
+end

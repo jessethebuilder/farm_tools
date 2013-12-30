@@ -11,7 +11,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131129090448) do
+ActiveRecord::Schema.define(version: 20131223092900) do
+
+  create_table "better_url_objects", force: true do |t|
+    t.string "name"
+    t.string "for_url"
+  end
 
   create_table "gens", force: true do |t|
     t.text     "fake_array"

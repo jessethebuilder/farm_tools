@@ -43,8 +43,7 @@ class Array
   end
 
   def move!(from, to)
-    raise IndexError, 'from parameter is out of bounds' if self.out_of_range?(from)
-    raise IndexError, 'to parameter is out of bounds' if self.out_of_range?(to)
+    to = to % self.count if to >= self.count
     self.insert(to, delete_at(from))
   end
 

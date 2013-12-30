@@ -9,6 +9,8 @@ module HtmlTools
     end
   end
 
+
+
   def array_for_select(arr, selected_items = nil)
     options = arr.each.collect{ |i| [i.to_s.titlecase, i] }
     if selected_items

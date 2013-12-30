@@ -46,7 +46,7 @@ describe 'monkey_patches.rb' do
       end
     end
 
-    describe '#move(to, from)' do
+    describe '#move(from, to)' do
 
       it 'should change the order of elements in an array by their index value' do
         arr.move(2, 3).should == [1,2,4,3]
@@ -66,13 +66,19 @@ describe 'monkey_patches.rb' do
         arr.move(1, 1).should == [1, 2, 3, 4]
       end
 
-      it 'should raise an error of to or from is out of array range' do
-        expect{ arr.move(10, 1) }.to raise_error(IndexError, /from parameter/)
-        expect{ arr.move(1, 10) }.to raise_error(IndexError, /to parameter/)
-      end
+     it 'if velocity moves item beyond bounds, it loops' do
+       arr.move!(0, -1)
+       arr.last.should == 1
+
+       arr.move!(3, 4)
+       #arr.should == 'x'
+
+       arr.first.should == 1
+     end
 
       specify '! version mutates original array' do
         arr.move!(2, 3)
+        arr.count.should == 4
         arr.should == [1,2,4,3]
       end
     end
