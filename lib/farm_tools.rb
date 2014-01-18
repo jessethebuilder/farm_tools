@@ -7,7 +7,6 @@ require 'farm_tools/therapy_stuff'
 require 'farm_tools/zip_distance'
 require 'farm_tools/better_url'
 require 'farm_tools/disk_helper'
-require 'farm_tools/facebook_helper'
 
 module FarmTools
 end
