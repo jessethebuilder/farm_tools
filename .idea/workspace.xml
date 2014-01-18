@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d09e1885-e9e5-46d3-afd4-3a8b55f6a20e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/farm_tools.rb" afterPath="$PROJECT_DIR$/lib/farm_tools.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/farm_tools/facebook_helper.rb" afterPath="$PROJECT_DIR$/lib/farm_tools/facebook_helper.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="farm_tools.iws" />
@@ -62,19 +62,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="facebook_helper.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="facebook_helper.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/farm_tools/facebook_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="53" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
+            <state line="5" column="45" selection-start="276" selection-end="276" vertical-scroll-proportion="0.15044248" vertical-offset="0" max-vertical-offset="565">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="farm_tools.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="farm_tools.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/farm_tools.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="35" selection-start="332" selection-end="332" vertical-scroll-proportion="0.27079645" vertical-offset="0" max-vertical-offset="565">
+            <state line="9" column="29" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
               <folding />
             </state>
           </provider>
@@ -152,8 +152,8 @@
         <option value="$PROJECT_DIR$/lib/farm_tools/monkey_patches.rb" />
         <option value="$PROJECT_DIR$/spec/lib/monkey_patches_spec.rb" />
         <option value="$PROJECT_DIR$/app/views/facebook_helper/_social_plugin.html.erb" />
-        <option value="$PROJECT_DIR$/lib/farm_tools/facebook_helper.rb" />
         <option value="$PROJECT_DIR$/lib/farm_tools.rb" />
+        <option value="$PROJECT_DIR$/lib/farm_tools/facebook_helper.rb" />
       </list>
     </option>
   </component>
@@ -722,7 +722,11 @@
       <created>1390019207549</created>
       <updated>1390019207549</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added Facebook Social Plugin&#10;">
+      <created>1390020385498</created>
+      <updated>1390020385498</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -789,7 +793,8 @@
     <MESSAGE value="Added to Array: move(from, to, move!(from, to)&#10;" />
     <MESSAGE value="Added Array #out_of_range?(index)" />
     <MESSAGE value="Added Array #out_of_range?(index)&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Array #out_of_range?(index)&#10;" />
+    <MESSAGE value="Added Facebook Social Plugin&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Facebook Social Plugin&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1052,16 +1057,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/farm_tools/facebook_helper.rb">
+    <entry file="file://$PROJECT_DIR$/lib/farm_tools.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="53" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
+        <state line="9" column="29" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/farm_tools.rb">
+    <entry file="file://$PROJECT_DIR$/lib/farm_tools/facebook_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="35" selection-start="332" selection-end="332" vertical-scroll-proportion="0.27079645" vertical-offset="0" max-vertical-offset="565">
+        <state line="5" column="45" selection-start="276" selection-end="276" vertical-scroll-proportion="0.15044248" vertical-offset="0" max-vertical-offset="565">
           <folding />
         </state>
       </provider>
