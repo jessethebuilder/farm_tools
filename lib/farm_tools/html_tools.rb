@@ -9,8 +9,6 @@ module HtmlTools
     end
   end
 
-
-
   def array_for_select(arr, selected_items = nil)
     options = arr.each.collect{ |i| [i.to_s.titlecase, i] }
     if selected_items
@@ -18,5 +16,10 @@ module HtmlTools
     else
       options_for_select(options)
     end
+  end
+
+  def remove_query_string(url)
+    query_start = /\?/ =~ url
+    url[0...query_start]
   end
 end
