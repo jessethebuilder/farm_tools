@@ -1,3 +1,1 @@
-function removeQueryString(url){
-    return url.split("?")[0];
-}
+//= require farm_tools
