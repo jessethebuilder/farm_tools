@@ -39,7 +39,7 @@
       <file leaf-file-name="facebook_helper.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/helpers/facebook_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="2" selection-start="387" selection-end="387" vertical-scroll-proportion="-1.0181564" vertical-offset="831" max-vertical-offset="1547">
+            <state line="45" column="64" selection-start="2358" selection-end="2358" vertical-scroll-proportion="0.6410614" vertical-offset="306" max-vertical-offset="1530">
               <folding />
             </state>
           </provider>
@@ -670,7 +670,11 @@
       <created>1393028424854</created>
       <updated>1393028424854</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Added TwitterHelper and FacebookHelper&#10;">
+      <created>1393028658356</created>
+      <updated>1393028658356</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -739,7 +743,8 @@
     <MESSAGE value="Added Array #out_of_range?(index)&#10;" />
     <MESSAGE value="Added Facebook Social Plugin&#10;" />
     <MESSAGE value="Added TwitterHelper and FacebookHelper" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added TwitterHelper and FacebookHelper" />
+    <MESSAGE value="Added TwitterHelper and FacebookHelper&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added TwitterHelper and FacebookHelper&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1010,7 +1015,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/facebook_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="2" selection-start="387" selection-end="387" vertical-scroll-proportion="-1.0181564" vertical-offset="831" max-vertical-offset="1547">
+        <state line="45" column="64" selection-start="2358" selection-end="2358" vertical-scroll-proportion="0.6410614" vertical-offset="306" max-vertical-offset="1530">
           <folding />
         </state>
       </provider>
