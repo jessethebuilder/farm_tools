@@ -1,4 +1,10 @@
 module FacebookHelper
+  #A few rules:
+  # - if you opt to include the script, you MUST include a facebook id.
+  # - if include the script, it includes the <div id="rb-root">, so if you include more than one script,
+  #   set :include_root => false on each subsequent plugin+script past after the first.
+  # - That's it. Enjoy, and plese feel free to contribute this project if you like.
+
   def follow_on_facebook_button(related, width: '225px', colorscheme: 'light', layout: 'standard',
       show_faces: true, include_script: false, fb_id: nil, include_root: true)
     html = content_tag :div, '', :class => 'fb-follow', :href => "http://www.facebook.com/#{related}",

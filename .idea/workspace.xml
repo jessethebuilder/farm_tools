@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d09e1885-e9e5-46d3-afd4-3a8b55f6a20e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/farm_tools/farm_tools.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/twitter_helper.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/facebook_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/facebook_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/farm_tools.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/farm_tools.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="farm_tools.iws" />
@@ -39,19 +36,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="facebook_helper.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="facebook_helper.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/helpers/facebook_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1445">
+            <state line="6" column="2" selection-start="387" selection-end="387" vertical-scroll-proportion="-1.0181564" vertical-offset="831" max-vertical-offset="1547">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="twitter_helper.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="twitter_helper.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/helpers/twitter_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="5" selection-start="1571" selection-end="1571" vertical-scroll-proportion="0.55618775" vertical-offset="0" max-vertical-offset="703">
+            <state line="23" column="5" selection-start="1571" selection-end="1571" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
               <folding />
             </state>
           </provider>
@@ -79,7 +76,10 @@
         <entry file="file://$PROJECT_DIR$/app/views/facebook_helper/_social_plugin.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="3" column="0" selection-start="151" selection-end="151" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="306">
-              <folding />
+              <folding>
+                <marker date="1390018995862" expanded="true" signature="159:509" placeholder="..." />
+                <marker date="1390018995862" expanded="true" signature="185:460" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -146,8 +146,8 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/farm_tools/farm_tools.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/farm_tools.js" />
         <option value="$PROJECT_DIR$/app/views/facebook_helper/_social_plugin.html.erb" />
-        <option value="$PROJECT_DIR$/app/helpers/facebook_helper.rb" />
         <option value="$PROJECT_DIR$/app/helpers/twitter_helper.rb" />
+        <option value="$PROJECT_DIR$/app/helpers/facebook_helper.rb" />
       </list>
     </option>
   </component>
@@ -666,7 +666,11 @@
       <created>1392691333712</created>
       <updated>1392691333712</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Added TwitterHelper and FacebookHelper">
+      <created>1393028424854</created>
+      <updated>1393028424854</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -693,6 +697,7 @@
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45698926" sideWeight="0.82991016" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293011" sideWeight="0.8209243" order="6" side_tool="false" content_ui="tabs" />
@@ -709,7 +714,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32884097" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -734,7 +738,8 @@
     <MESSAGE value="Added Array #out_of_range?(index)" />
     <MESSAGE value="Added Array #out_of_range?(index)&#10;" />
     <MESSAGE value="Added Facebook Social Plugin&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Facebook Social Plugin&#10;" />
+    <MESSAGE value="Added TwitterHelper and FacebookHelper" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added TwitterHelper and FacebookHelper" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -975,7 +980,10 @@
     <entry file="file://$PROJECT_DIR$/app/views/facebook_helper/_social_plugin.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="0" selection-start="151" selection-end="151" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="306">
-          <folding />
+          <folding>
+            <marker date="1390018995862" expanded="true" signature="159:509" placeholder="..." />
+            <marker date="1390018995862" expanded="true" signature="185:460" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -993,16 +1001,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/facebook_helper.rb">
+    <entry file="file://$PROJECT_DIR$/app/helpers/twitter_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1445">
+        <state line="23" column="5" selection-start="1571" selection-end="1571" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/twitter_helper.rb">
+    <entry file="file://$PROJECT_DIR$/app/helpers/facebook_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="5" selection-start="1571" selection-end="1571" vertical-scroll-proportion="0.55618775" vertical-offset="0" max-vertical-offset="703">
+        <state line="6" column="2" selection-start="387" selection-end="387" vertical-scroll-proportion="-1.0181564" vertical-offset="831" max-vertical-offset="1547">
           <folding />
         </state>
       </provider>
