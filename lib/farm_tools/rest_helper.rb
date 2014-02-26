@@ -6,4 +6,5 @@ module RestHelper
     resp = Net::HTTP.get_response(URI.parse(url))
     resp.body
   end
+
 end
