@@ -22,4 +22,12 @@ module HtmlTools
     query_start = /\?/ =~ url
     url[0...query_start]
   end
+
+  def meta_tags(h)
+    html = ''
+    h.each do |k, v|
+      html += content_tag(:meta, '', :property => k.to_s, :content => v)
+    end
+    html.html_safe
+  end
 end
