@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d09e1885-e9e5-46d3-afd4-3a8b55f6a20e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/errors_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/_error_explanation.html.erb" />
+      <change type="MOVED" beforePath="C:\Users\jf\Desktop\jesseweb\farm_tools\script\rails" afterPath="$PROJECT_DIR$/bin/rails" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/farm_tools.iml" afterPath="$PROJECT_DIR$/.idea/farm_tools.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/dummy/app/models/gen.rb" afterPath="$PROJECT_DIR$/spec/dummy/app/models/gen.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/dummy/db/schema.rb" afterPath="$PROJECT_DIR$/spec/dummy/db/schema.rb" />
     </list>
     <ignored path="farm_tools.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -15,12 +21,12 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/farm_tools@db_migrate__farm_tools.coverage" NAME="db:migrate: farm_tools Coverage Results" MODIFIED="1390279616872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
-    <SUITE FILE_PATH="coverage/farm_tools@app_db_rollback__farm_tools.coverage" NAME="app:db:rollback: farm_tools Coverage Results" MODIFIED="1390279888779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
-    <SUITE FILE_PATH="coverage/farm_tools@app_spec__farm_tools.coverage" NAME="app:spec: farm_tools Coverage Results" MODIFIED="1388350860955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
+    <SUITE FILE_PATH="coverage/farm_tools@app_db_rollback__farm_tools.coverage" NAME="app:db:rollback: farm_tools Coverage Results" MODIFIED="1393903304902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
     <SUITE FILE_PATH="coverage/farm_tools@IRB_console__farm_tools.coverage" NAME="IRB console: farm_tools Coverage Results" MODIFIED="1388385476389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
-    <SUITE FILE_PATH="coverage/farm_tools@app_db_migrate__farm_tools.coverage" NAME="app:db:migrate: farm_tools Coverage Results" MODIFIED="1390279400519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
+    <SUITE FILE_PATH="coverage/farm_tools@app_spec__farm_tools.coverage" NAME="app:spec: farm_tools Coverage Results" MODIFIED="1393920977486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
+    <SUITE FILE_PATH="coverage/farm_tools@app_db_migrate__farm_tools.coverage" NAME="app:db:migrate: farm_tools Coverage Results" MODIFIED="1393903347816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
     <SUITE FILE_PATH="coverage/farm_tools@db_rollback__farm_tools.coverage" NAME="db:rollback: farm_tools Coverage Results" MODIFIED="1385713946173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
-    <SUITE FILE_PATH="coverage/farm_tools@spec__farm_tools.coverage" NAME="spec: farm_tools Coverage Results" MODIFIED="1388386386236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
+    <SUITE FILE_PATH="coverage/farm_tools@spec__farm_tools.coverage" NAME="spec: farm_tools Coverage Results" MODIFIED="1393903070703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
     <SUITE FILE_PATH="coverage/farm_tools@db_migrate.coverage" NAME="db:migrate Coverage Results" MODIFIED="1390277841631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -35,28 +41,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="facebook_helper.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="facebook_helper.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/helpers/facebook_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="22" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="716">
+            <state line="24" column="31" selection-start="1387" selection-end="1387" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="714">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="twitter_helper.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/helpers/twitter_helper.rb">
+      <file leaf-file-name="address.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/address.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="5" selection-start="1571" selection-end="1571" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="527">
+            <state line="2" column="3" selection-start="86" selection-end="86" vertical-scroll-proportion="0.04735376" vertical-offset="0" max-vertical-offset="718">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="disk_helper.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/farm_tools/disk_helper.rb">
+      <file leaf-file-name="address_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/models/address_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="3" selection-start="90" selection-end="160" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="187">
+            <state line="7" column="0" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="238">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_error_explanation.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/_error_explanation.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="8" selection-start="36" selection-end="55" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="595">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="errors_helper.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/helpers/errors_helper.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="51" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="221">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gen.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/dummy/app/models/gen.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="3" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="170">
               <folding />
             </state>
           </provider>
@@ -65,47 +98,8 @@
       <file leaf-file-name="html_tools.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/farm_tools/html_tools.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="5" selection-start="817" selection-end="817" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+            <state line="31" column="5" selection-start="817" selection-end="817" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="646">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rest_helper.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/farm_tools/rest_helper.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="679" selection-end="679" vertical-scroll-proportion="0.0" vertical-offset="115" max-vertical-offset="833">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="farm_tools.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/farm_tools.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="32" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="306">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_social_plugin.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/facebook_helper/_social_plugin.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="306">
-              <folding>
-                <marker date="1390018995862" expanded="true" signature="159:509" placeholder="..." />
-                <marker date="1390018995862" expanded="true" signature="185:460" placeholder="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -126,13 +120,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Rakefile" />
-        <option value="$PROJECT_DIR$/lib/farm_tools/engine.rb" />
-        <option value="$PROJECT_DIR$/Gemfile.lock" />
-        <option value="$PROJECT_DIR$/spec/dummy/config/application.rb" />
         <option value="$PROJECT_DIR$/spec/dummy/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/spec/dummy/db/migrate/20131129030317_create_gens.rb" />
-        <option value="$PROJECT_DIR$/spec/dummy/app/models/gen.rb" />
         <option value="$PROJECT_DIR$/spec/dummy/config/environments/test.rb" />
         <option value="$PROJECT_DIR$/spec/lib/string_hacks_spec.rb" />
         <option value="$PROJECT_DIR$/spec/lib/string_tools_spec.rb" />
@@ -174,12 +163,21 @@
         <option value="$PROJECT_DIR$/lib/farm_tools/rest_helper.rb" />
         <option value="$PROJECT_DIR$/app/helpers/facebook_helper.rb" />
         <option value="$PROJECT_DIR$/lib/farm_tools/html_tools.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20140304023525_create_addresses.rb" />
+        <option value="$PROJECT_DIR$/app/models/address2.rb" />
+        <option value="$PROJECT_DIR$/spec/dummy/app/models/gen.rb" />
+        <option value="$PROJECT_DIR$/app/models/address/base.rb" />
+        <option value="$PROJECT_DIR$/app/models/address.rb" />
+        <option value="$PROJECT_DIR$/spec/models/address_spec.rb" />
+        <option value="$PROJECT_DIR$/app/views/_error_explanation.html.erb" />
+        <option value="$PROJECT_DIR$/app/helpers/errors_helper.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="width" value="1612" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
     <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -208,6 +206,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -236,7 +236,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="spec" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -250,11 +250,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="spec" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="farm_tools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="farm_tools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="farm_tools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="farm_tools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -292,8 +328,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -302,7 +336,7 @@
     <property name="recentsLimit" value="5" />
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
     <property name="FullScreen" value="false" />
-    <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
+    <property name="options.lastSelected" value="reference.settings.ide.settings.web.browsers" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -311,6 +345,9 @@
     <property name="restartRequiresConfirmation" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jf\Desktop\jesseweb\farm_tools\app\views" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jf\Desktop\jesseweb\farm_tools\app\assets\javascripts\farm_tools" />
       <recent name="C:\Users\jf\Desktop\jesseweb\farm_tools\app\assets\javascripts" />
@@ -319,7 +356,7 @@
       <recent name="C:\Users\jf\Desktop\jesseweb\farm_tools\spec\dummy\db\migrate" />
     </key>
   </component>
-  <component name="RunManager" selected="Rake.app:db:rollback: farm_tools">
+  <component name="RunManager" selected="Rake.app:spec: farm_tools">
     <configuration default="false" name="app:db:migrate: farm_tools" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
       <module name="farm_tools" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -355,7 +392,7 @@
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="app:db:rollback" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="1" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
@@ -733,7 +770,11 @@
       <created>1393379791233</created>
       <updated>1393379791233</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Added TwitterHelper and FacebookHelper&#10;">
+      <created>1393380499920</created>
+      <updated>1393380499920</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -757,17 +798,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1612" height="876" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45698926" sideWeight="0.82991016" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293011" sideWeight="0.8209243" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293011" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33140284" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35815147" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39892185" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49460918" sideWeight="0.10911425" order="7" side_tool="true" content_ui="tabs" />
@@ -776,11 +816,15 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32884097" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3266129" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.rb" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -811,31 +855,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Rakefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="115" selection-start="559" selection-end="559" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="374" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="3" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="323" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/dummy/Rakefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="36" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="221" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/dummy/config/application.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="96" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1207" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/farm_tools/engine.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="45" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="272" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/farm_tools/monkey_patches.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="32" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544" />
@@ -881,11 +900,6 @@
         <state line="55" column="31" selection-start="2564" selection-end="2569" vertical-scroll-proportion="0.0" vertical-offset="12" max-vertical-offset="1207" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/dummy/app/models/gen.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="26" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/dummy/config/environments/test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="27" selection-start="1460" selection-end="1460" vertical-scroll-proportion="0.592" vertical-offset="356" max-vertical-offset="748" />
@@ -896,19 +910,9 @@
         <state line="1" column="8" selection-start="30" selection-end="66" vertical-scroll-proportion="0.045333333" vertical-offset="0" max-vertical-offset="782" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/farm_tools/engine.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="256" selection-end="256" vertical-scroll-proportion="0.45333335" vertical-offset="0" max-vertical-offset="375" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/farm_tools/version.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script/rails">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="19" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
@@ -1011,11 +1015,6 @@
         <state line="3" column="24" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/dummy/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="740" selection-end="740" vertical-scroll-proportion="0.0" vertical-offset="62" max-vertical-offset="578" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/farm_tools/farm_tools.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="1" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136" />
@@ -1028,19 +1027,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/facebook_helper/_social_plugin.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="306">
-          <folding>
-            <marker date="1390018995862" expanded="true" signature="159:509" placeholder="..." />
-            <marker date="1390018995862" expanded="true" signature="185:460" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/farm_tools.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="32" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <folding />
-        </state>
+        <state line="3" column="0" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="306" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
@@ -1052,23 +1039,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/twitter_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="5" selection-start="1571" selection-end="1571" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
-          <folding />
-        </state>
+        <state line="23" column="5" selection-start="1571" selection-end="1571" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/farm_tools/disk_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="3" selection-start="90" selection-end="160" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <folding />
-        </state>
+        <state line="3" column="3" selection-start="90" selection-end="160" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/farm_tools/rest_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
+        <state line="8" column="0" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/farm_tools/html_tools.rb">
@@ -1078,9 +1059,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bin/rails">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="19" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140304023525_create_addresses.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="18" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/dummy/app/models/gen.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="3" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/farm_tools.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="32" selection-start="296" selection-end="296" vertical-scroll-proportion="0.27474746" vertical-offset="0" max-vertical-offset="495" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/farm_tools/engine.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/address_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/_error_explanation.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="8" selection-start="36" selection-end="55" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/errors_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="51" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/dummy/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="1181" selection-end="1181" vertical-scroll-proportion="0.4618705" vertical-offset="172" max-vertical-offset="867" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/facebook_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="22" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="716">
+        <state line="24" column="31" selection-start="1387" selection-end="1387" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/address.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="3" selection-start="86" selection-end="86" vertical-scroll-proportion="0.04735376" vertical-offset="0" max-vertical-offset="718">
           <folding />
         </state>
       </provider>
