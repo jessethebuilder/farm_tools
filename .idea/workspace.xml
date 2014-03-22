@@ -127,7 +127,7 @@
       <file leaf-file-name="engine.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/farm_tools/engine.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="4" selection-start="337" selection-end="337" vertical-scroll-proportion="0.2682927" vertical-offset="0" max-vertical-offset="697">
+            <state line="3" column="4" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0733813" vertical-offset="0" max-vertical-offset="695">
               <folding />
             </state>
           </provider>
@@ -807,7 +807,15 @@
       <created>1395528508130</created>
       <updated>1395528508130</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Migrations&#10;">
+      <created>1395531243509</created>
+      <updated>1395531243509</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Migrations&#10;">
+      <created>1395531264249</created>
+      <updated>1395531264249</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -834,6 +842,7 @@
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45698926" sideWeight="0.82991016" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293011" sideWeight="0.8209243" order="6" side_tool="false" content_ui="tabs" />
@@ -850,7 +859,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3266129" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -880,7 +888,8 @@
     <MESSAGE value="Added Facebook Social Plugin&#10;" />
     <MESSAGE value="Added TwitterHelper and FacebookHelper" />
     <MESSAGE value="Added TwitterHelper and FacebookHelper&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added TwitterHelper and FacebookHelper&#10;" />
+    <MESSAGE value="Migrations&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Migrations&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1169,7 +1178,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/farm_tools/engine.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="4" selection-start="337" selection-end="337" vertical-scroll-proportion="0.2682927" vertical-offset="0" max-vertical-offset="697">
+        <state line="3" column="4" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0733813" vertical-offset="0" max-vertical-offset="695">
           <folding />
         </state>
       </provider>
