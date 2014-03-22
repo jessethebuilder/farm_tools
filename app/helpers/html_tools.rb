@@ -30,4 +30,12 @@ module HtmlTools
     end
     html.html_safe
   end
+
+  def to_li(container, *opts)
+    html = ''
+    container.each do |i|
+      html += content_tag(:li, i, opts)
+    end
+    html.html_safe
+  end
 end

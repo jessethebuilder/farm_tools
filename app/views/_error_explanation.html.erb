@@ -1,5 +1,5 @@
 <% if object.errors.any? %>
-  <% if include_explanation %>
+  <% if include_text_explanation %>
     <div id="error_explanation" class="has-error">
       <h3 class="control-label"><%= pluralize(object.errors.count, "error") %> kept this <%= object_name %>
         from being <%= verb %>:
