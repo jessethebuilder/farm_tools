@@ -34,4 +34,5 @@ module FacebookHelper
               }(document, \'script\', \'facebook-jssdk\'));</script>'
     html.html_safe
   end
+
 end
