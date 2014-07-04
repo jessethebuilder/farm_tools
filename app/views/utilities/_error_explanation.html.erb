@@ -1,5 +1,5 @@
 <% if object.errors.any? %>
-  <% if include_text_explanation %>
+  <% if local_assigns[:include_text_explanation] %>
     <div id="error_explanation" class="has-error">
       <h3 class="control-label"><%= pluralize(object.errors.count, "error") %> kept this <%= object_name %>
         from being <%= verb %>:
@@ -15,11 +15,14 @@
 
   <script>
       $(window).load(function(){
-          $('.field_with_errors').addClass('has-error');
+          //$('.field_with_errors').addClass('has-error');
 
-          <% object.errors.each do |k, v| %>
-          $('#<%= "#{object.class.name.underscore}_#{k}" %>').parent('div').append(errorMessage('<%= v %>'));
-          $('#<%= "#{object.class.name.underscore}_#{k}_1i" %>').parent('div').append(errorMessage('<%= v %>'));
+          <% object.errors.messages.each do |k, v| %>
+
+            //$('#<%= "#{object.class.name.underscore}_#{k}" %>').parent('div').append(errorMessage('<%= v %>')).addClass('has-error');
+            <% selector = error_key_to_selector(k, object.class.name.underscore) %>
+            $('#<%= selector %>').parent('div').append(errorMessage('<%= v.join(';') %>')).addClass('has-error');
+            $('#<%= "#{selector}_1i" %>').parent('div').append(errorMessage('<%= v %>')).addClass('has_error');
           <% end %>
       })
 

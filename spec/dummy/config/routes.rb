@@ -1,5 +1,11 @@
 Dummy::Application.routes.draw do
+  resources :test_companies
+
+  resources :test_models
+
   resources :gens
+
+  root :to => 'test_models#new'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
