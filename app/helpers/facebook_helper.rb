@@ -1,5 +1,6 @@
 module FacebookHelper
   def follow_on_facebook_button(related, width: '225px', colorscheme: 'light', layout: 'standard', show_faces: true)
+    #layouts are "standard", "box_count", "button_count", "button"
     content_tag :div, '', :class => 'fb-follow', :href => "http://www.facebook.com/#{related}",
                        'data-colorscheme' => colorscheme, 'data-layout' => layout, 'data-show-faces' => show_faces,
                        'data-width' => width
@@ -21,17 +22,22 @@ module FacebookHelper
     html.html_safe
   end
 
-  def facebook_sdk(fb_id)
-    html = '<div id="fb-root"></div>'
-    html += '<script>(function(d, s, id) {
-                      var js, fjs = d.getElementsByTagName(s)[0];
-                      if (d.getElementById(id)) return;
-                      js = d.createElement(s); js.id = id;
-                      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId='
-    html += fb_id
-    html += '";
-              fjs.parentNode.insertBefore(js, fjs);
-              }(document, \'script\', \'facebook-jssdk\'));</script>'
+  def facebook_sdk(fb_id, turbolinks: false)
+    unless turbolinks
+      html = '<div id="fb-root"></div>'
+      html += '<script>(function(d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0];
+                        if (d.getElementById(id)) return;
+                        js = d.createElement(s); js.id = id;
+                        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId='
+      html += fb_id
+      html += '";
+                fjs.parentNode.insertBefore(js, fjs);
+                }(document, \'script\', \'facebook-jssdk\'));</script>'
+    else
+      html = javascript_include_tag 'facebook_sdk_for_turbolinks'
+    end
+
     html.html_safe
   end
 
