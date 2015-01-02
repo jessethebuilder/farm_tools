@@ -1,3 +1,8 @@
+#the publish_or_archive record needs to be added to the beginning of :create and :update
+#set_[instance_variable] needs to be modified to make a new object if params[:id] is not found.
+
+#Follow directions at the top of each module.
+
 module SaveDraftArchiveDelete
   #extend in model
   def save_draft_archive_delete
@@ -47,7 +52,7 @@ end
 
 module SaveDraftArchiveDeleteControllerHelper
   #include in controller
-  #the publish_or_archive record needs to be added to the beginning
+
   def publish?
     params[:commit] == 'Publish'
   end
