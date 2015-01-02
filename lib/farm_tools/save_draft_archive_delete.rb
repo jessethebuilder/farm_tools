@@ -8,6 +8,7 @@ module SaveDraftArchiveDelete
   def save_draft_archive_delete
     #requires that record has column :archived and column :published. Both should default to false
     instance_eval do
+      #modify published and archived setters
       define_method(:published=) do |value|
         write_attribute(:archived, false) if value
         super(value)
@@ -16,6 +17,15 @@ module SaveDraftArchiveDelete
       define_method(:archived=) do |value|
         write_attribute(:published, false) if value
         super(value)
+      end
+
+      define_method(:publication_status) do
+        if published?
+          val = 'published'
+        else
+          val = archived? ? 'archived' : 'draft'
+        end
+        val
       end
     end
   end
