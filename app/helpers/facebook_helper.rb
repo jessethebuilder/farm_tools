@@ -51,7 +51,7 @@ module FacebookHelper
     html += %Q|<meta property="og:type" content="website">|
     html += %Q|<meta property="og:image" content="#{full_image_url}">|
     html += %Q|<meta property="og:site_name" content="#{site_name}">|
-    html += %Q|<meta property="og:description" content="#{facebook_comments(description)}">|
+    html += %Q|<meta property="og:description" content="#{facebook_description(description)}">|
     html.html_safe
     #html = content_tag :meta, '', :property => 'og:title', :content => title
     #html += content_tag(:meta, '', :property => 'og:image', :content => image_url)
