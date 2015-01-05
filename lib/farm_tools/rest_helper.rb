@@ -1,12 +1,11 @@
 module RestHelper
   require 'net/http'
 
-
   def get_response_code(url)
     get_response(url).code
   end
 
-  def get_response_body
+  def get_response_body(url)
     get_response(url).body
   end
 
