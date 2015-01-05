@@ -1,0 +1,2 @@
+module TestCompaniesHelper
+end

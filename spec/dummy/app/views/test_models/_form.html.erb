@@ -1,0 +1,23 @@
+<%= form_for(@test_model) do |f| %>
+  <%= error_explanation(@test_model) %>
+
+  <div class="form-group">
+    <%= f.label :string, :class => "control-label" %>
+    <%= f.text_field :string, :class => 'form-control' %>
+  </div>
+  <div class="form-group">
+    <%= f.label :string2, :class => 'control-label' %>
+    <%= f.text_field :string2, :class => 'form-control'  %>
+  </div>
+
+  <%= f.fields_for(:test_company) do |test_company_fields| %>
+    <div class="form-group">
+      <%= test_company_fields.label :name, :class => 'control-label' %>
+      <%= test_company_fields.text_field :name, :class => 'form-control' %>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

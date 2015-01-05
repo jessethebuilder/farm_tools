@@ -2,9 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d09e1885-e9e5-46d3-afd4-3a8b55f6a20e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/html_tools.rb" afterPath="$PROJECT_DIR$/app/helpers/html_tools.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/farm_tools/rest_helper.rb" afterPath="$PROJECT_DIR$/lib/farm_tools/rest_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/farm_tools/save_draft_archive_delete.rb" afterPath="$PROJECT_DIR$/lib/farm_tools/save_draft_archive_delete.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/db/migrate/20140703225052_create_test_models.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/db/migrate/20140703225305_create_test_companies.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/app/views/test_companies/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/app/views/test_models/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/app/views/test_companies/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/app/views/test_models/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/spec/views/test_companies/edit.html.erb_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/spec/views/test_models/edit.html.erb_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/app/views/test_companies/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/app/views/test_models/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/spec/views/test_companies/index.html.erb_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/spec/views/test_models/index.html.erb_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/app/views/test_companies/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/app/views/test_models/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/spec/views/test_companies/new.html.erb_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/spec/views/test_models/new.html.erb_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/app/views/test_companies/show.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/app/views/test_models/show.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/spec/views/test_companies/show.html.erb_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/spec/views/test_models/show.html.erb_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/app/assets/stylesheets/test_companies.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/app/assets/javascripts/test_companies.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/spec/factories/test_companies.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/app/controllers/test_companies_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/spec/controllers/test_companies_controller_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/app/helpers/test_companies_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/spec/helpers/test_companies_helper_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/spec/routing/test_companies_routing_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/spec/requests/test_companies_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/app/models/test_company.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/spec/models/test_company_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/app/models/test_model.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/spec/models/test_model_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/integration/test_model_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/app/assets/stylesheets/test_models.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/app/assets/javascripts/test_models.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/spec/factories/test_models.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/factories/test_models.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/app/controllers/test_models_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/spec/controllers/test_models_controller_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/app/helpers/test_models_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/spec/helpers/test_models_helper_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/spec/routing/test_models_routing_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/spec/requests/test_models_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="farm_tools.iws" />
@@ -77,7 +118,7 @@
       <file leaf-file-name="rest_helper.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/farm_tools/rest_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="17" selection-start="215" selection-end="215" vertical-scroll-proportion="0.28451884" vertical-offset="0" max-vertical-offset="717">
+            <state line="12" column="17" selection-start="215" selection-end="215" vertical-scroll-proportion="0.28531468" vertical-offset="0" max-vertical-offset="715">
               <folding />
             </state>
           </provider>
@@ -792,7 +833,11 @@
       <created>1420248256669</created>
       <updated>1420248256669</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Rest Helper">
+      <created>1420433952511</created>
+      <updated>1420433952511</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -819,6 +864,7 @@
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49798116" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4549125" sideWeight="0.82991016" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293011" sideWeight="0.8209243" order="6" side_tool="false" content_ui="tabs" />
@@ -835,7 +881,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3266129" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49798116" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -870,7 +915,8 @@
     <MESSAGE value="made SocialNetworking compatible with TurboLinks" />
     <MESSAGE value="SaveDraftArchiveDelete" />
     <MESSAGE value="SaveDraftArchiveDelete&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="SaveDraftArchiveDelete&#10;" />
+    <MESSAGE value="Rest Helper" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rest Helper" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1144,7 +1190,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/farm_tools/rest_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="17" selection-start="215" selection-end="215" vertical-scroll-proportion="0.28451884" vertical-offset="0" max-vertical-offset="717">
+        <state line="12" column="17" selection-start="215" selection-end="215" vertical-scroll-proportion="0.28531468" vertical-offset="0" max-vertical-offset="715">
           <folding />
         </state>
       </provider>

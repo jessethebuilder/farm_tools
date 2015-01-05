@@ -1,0 +1,27 @@
+<h1>Listing test_companies</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @test_companies.each do |test_company| %>
+      <tr>
+        <td><%= test_company.name %></td>
+        <td><%= link_to 'Show', test_company %></td>
+        <td><%= link_to 'Edit', edit_test_company_path(test_company) %></td>
+        <td><%= link_to 'Destroy', test_company, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Test company', new_test_company_path %>
