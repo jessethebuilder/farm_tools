@@ -75,7 +75,7 @@
       <file leaf-file-name="rest_helper.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/farm_tools/rest_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="715">
+            <state line="0" column="11" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="715">
               <folding />
             </state>
           </provider>
@@ -802,7 +802,11 @@
       <created>1420435095951</created>
       <updated>1420435095951</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Rest Helper&#10;">
+      <created>1420435879744</created>
+      <updated>1420435879744</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1156,7 +1160,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/farm_tools/rest_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="715">
+        <state line="0" column="11" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="715">
           <folding />
         </state>
       </provider>
