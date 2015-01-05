@@ -1,4 +1,4 @@
-module RestHelper
+module ResttHelper
   require 'net/http'
 
 
