@@ -30,16 +30,18 @@ module SaveDraftArchiveDelete
     end
   end
 
-  def records(show_drafts: false, show_archives: false, hide_published: false)
+  def records(show_drafts: false, show_archives: false, hide_published: false, order: nil)
     if hide_published
       r = empty_query
     else
       r = where(:published => true)
     end
 
-    r = r + drafts if show_drafts
-    r = r + archives if show_archives
-    r
+    r << drafts if show_drafts
+    r << archives if show_archives
+    #r = r + drafts if show_drafts
+    #r = r + archives if show_archives
+    r.order(order)
   end
 
   def empty_query

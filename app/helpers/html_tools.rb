@@ -27,7 +27,6 @@ module HtmlTools
     html = ''
     h.each do |k, v|
       html += %Q|<meta property="#{k.to_s}" content="#{v}"|
-      #html += content_tag(:meta, '', :content => v, :property => k.to_s, )
     end
     html.html_safe
   end
