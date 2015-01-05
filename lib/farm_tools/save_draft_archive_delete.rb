@@ -78,6 +78,9 @@ module SaveDraftArchiveDeleteControllerHelper
     record.update_attribute(:archived, archive?)
   end
   #
+
+
+
   #def self.included(base)
   #  /(.+)Controller\Z/ =~ base.name
   #  class_name = $1.singularize.underscore
