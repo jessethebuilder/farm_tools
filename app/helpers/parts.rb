@@ -1,5 +1,5 @@
 module Parts
-  def quick_options(options)
+  def quick_options(*options)
     html = initiate_quick_options
     #html += '<div class="row">'
     html += '<ul class="quick_options">'
