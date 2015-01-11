@@ -21,4 +21,9 @@ module Parts
                       quickOptionsBehaviors();
               })</script>"
   end
+
+  def image_select(form_builder, object, uploader, version: :thumb)
+    render :partial => 'utilities/image_select.html.erb', :locals => {:f => form_builder, :object => object,
+                                                         :uploader => uploader, :version => version}
+  end
 end
