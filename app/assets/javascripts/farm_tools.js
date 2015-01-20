@@ -1,4 +1,5 @@
 //= require quick_options
+//= require bootstrap_scripts
 
 function removeQueryString(url){
     return url.split("?")[0];

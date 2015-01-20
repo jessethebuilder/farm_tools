@@ -22,8 +22,9 @@ module Parts
               })</script>"
   end
 
-  def image_select(form_builder, object, uploader, version: :thumb)
+  def image_select(form_builder, object, uploader, version: :thumb, multiple: false)
     render :partial => 'utilities/image_select.html.erb', :locals => {:f => form_builder, :object => object,
-                                                         :uploader => uploader, :version => version}
+                                                          :uploader => uploader, :version => version,
+                                                          :multiple => multiple}
   end
 end

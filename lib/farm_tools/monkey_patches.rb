@@ -1,4 +1,23 @@
 class ActiveRecord::Base
+  def self.group_records(records, attr, count = 'all')
+    all_hash = records.group_by{ |r| r.send(attr) }
+    h = {}
+    i = 0
+    if count == 'all'
+      h = all_hash
+    else
+      all_hash.each do |k, v|
+        if i < count
+          h[k] = v
+          i += 1
+        else
+          break
+        end
+      end
+    end
+    h
+  end
+
   def self.acts_like_an_array(*args)
     delin = '<!@--@!>'
 
