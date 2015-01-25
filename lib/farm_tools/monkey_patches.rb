@@ -1,5 +1,5 @@
 class ActiveRecord::Base
-  def self.group_records(records, attr, count = 'all')
+  def self.group_records(records, attr, count: 'all')
     all_hash = records.group_by{ |r| r.send(attr) }
     h = {}
     i = 0
