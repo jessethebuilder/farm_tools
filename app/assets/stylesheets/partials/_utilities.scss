@@ -1,12 +1,28 @@
+@mixin align_v($top){
+  position: absolute;
+  top: $top;
+  transform: translate(0, $top - 100%);
+}
+
+@mixin align_hv($top, $left){
+  position: absolute;
+  left: $left;
+  top: $top;
+  margin-right: $left - 100%;
+  transform: translate($left - 100%, $top - 100%);
+}
+
 /*-------------------------------------------------------------------------------
 *Utility Classes
 -------------------------------------------------------------------------------*/
 
 // Utility Classes----------
+
 .v_center{
-  position: absolute;
-  top: 50%;
-  transform: translate(0, -50%);
+  @include align_v(70%);
+//  position: absolute;
+//  top: 50%;
+//  transform: translate(0, -50%);
 }
 .h_center{
   position: absolute;
@@ -15,6 +31,7 @@
   transform: translate(-50%, 0);
 }
 .hv_center{
+//  @include align_hv(30%, 30%);
   position: absolute;
   left: 50%;
   top: 50%;

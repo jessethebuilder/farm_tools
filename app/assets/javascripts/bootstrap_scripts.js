@@ -1,24 +1,32 @@
 
+//function onMediaQuery(screen_size, on_methods, off_methods) {
+//  var size = parseScreenSize(screen_size);
+//
+//  enquire.register("screen and (max-width:" + size + "px)", [{
+//    match: function () {
+//      doMethods(on_methods);
+//    },
+//    unmatch: function () {
+//      doMethods(off_methods);
+//    }
+//    }
+//  ]);
+//}
+
 function onMediaQuery(screen_size, on_methods, off_methods) {
   var size = parseScreenSize(screen_size);
 
-  enquire.register("screen and (max-width:" + size + "px)", [{
+  enquire.register("screen and (max-width:" + size + "px)", {
     match: function () {
-      if(typeof on_methods == "function"){on_methods = [on_methods]}
-      on_methods.forEach(function(method){
-        method();
-      })
+      doMethods(on_methods);
     },
     unmatch: function () {
-      if(typeof off_methods == "function"){off_methods = [off_methods]}
-      off_methods.forEach(function(method){
-        method();
-      })
-
+      doMethods(off_methods);
     }
-  }
-  ])
+  });
 }
+
+
 
 function parseScreenSize(size){
   var val

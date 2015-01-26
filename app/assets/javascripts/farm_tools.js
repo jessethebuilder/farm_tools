@@ -51,3 +51,13 @@ function toggleClassOnHover(selector, klass, persist){
     $(this).removeClass(klass);
   })
 }
+
+function doMethods(methods){
+  //accepts either a method or an array of methods. Put method in array if necessary
+  if(typeof methods == "function"){methods = [methods]}
+
+  methods.forEach(function(method){
+    method();
+  })
+}
+
