@@ -30,9 +30,9 @@ ActiveRecord::Schema.define(version: 20140703225305) do
     t.datetime "updated_at"
   end
 
-  create_table "better_url_objects", force: true do |t|
+  create_table "farm_slugs_objects", force: true do |t|
     t.string "name"
-    t.string "for_url"
+    t.string "slug"
   end
 
   create_table "gens", force: true do |t|

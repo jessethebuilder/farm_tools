@@ -11,5 +11,4 @@ require 'spec_helper'
 #   end
 # end
 describe TestCompaniesHelper do
-  pending "add some examples to (or delete) #{__FILE__}"
 end
