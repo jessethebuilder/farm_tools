@@ -53,6 +53,15 @@ function toggleClassOnHover(selector, klass, persist){
   })
 }
 
+function doMethodsOnLoad(methods){
+  $(document).ready(function(){
+    doMethods(methods);
+  })
+  $(document).on('page:load', function(){
+    doMethods(methods);
+  })
+}
+
 function doMethods(methods){
   //accepts either a method or an array of methods. Put method in array if necessary
   if(typeof methods == "function"){methods = [methods]}

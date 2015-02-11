@@ -42,14 +42,10 @@ module FacebookHelper
   end
 
   def facebook_meta_tags(title, image_url, description, site_name, url: request.url)
-    #h = {'og:image' => image_url, 'og:title' => title, 'og:type' => 'website', 'og:url' => url}
-    #meta_tags(h)
-    full_image_url = 'http://' + request.host + image_url
-
     html = %Q|<meta property="og:title" content="#{title}">|
     html += %Q|<meta property="og:url" content="#{url}">|
     html += %Q|<meta property="og:type" content="website">|
-    html += %Q|<meta property="og:image" content="#{full_image_url}">|
+    html += %Q|<meta property="og:image" content="#{image_url}">|
     html += %Q|<meta property="og:site_name" content="#{site_name}">|
     html += %Q|<meta property="og:description" content="#{facebook_description(description)}">|
     html.html_safe
