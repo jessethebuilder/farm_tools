@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    farm_tools (0.0.1)
+    farm_tools (0.0.2)
       rails
 
 GEM

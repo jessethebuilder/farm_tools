@@ -38,4 +38,15 @@ module HtmlTools
     end
     html.html_safe
   end
+
+  def canonical_link(url)
+    %Q|<link rel="canonical" href="#{url}">|.html_safe
+  end
+
+  def head_info(title, description, image_url, resource_type, site_name, url = request.url)
+    html = "<title>#{title}</title>".html_safe
+    html += facebook_meta_tags(title, description, image_url, resource_type, site_name, url)
+    html += canonical_link(url)
+    content_for :head_info, html
+  end
 end

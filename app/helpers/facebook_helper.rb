@@ -41,10 +41,12 @@ module FacebookHelper
     html.html_safe
   end
 
-  def facebook_meta_tags(title, image_url, description, site_name, url: request.url)
+
+
+  def facebook_meta_tags(title, description, image_url, resource_type, site_name, url = request.url)
     html = %Q|<meta property="og:title" content="#{title}">|
     html += %Q|<meta property="og:url" content="#{url}">|
-    html += %Q|<meta property="og:type" content="website">|
+    html += %Q|<meta property="og:type" content="#{resource_type}">|
     html += %Q|<meta property="og:image" content="#{image_url}">|
     html += %Q|<meta property="og:site_name" content="#{site_name}">|
     html += %Q|<meta property="og:description" content="#{facebook_description(description)}">|
@@ -62,5 +64,6 @@ module FacebookHelper
     index = /<br( \/)?>/ =~ str
     index ? str[0..(index - 1)] : str
   end
+
 
 end
