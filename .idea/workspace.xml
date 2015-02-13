@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d09e1885-e9e5-46d3-afd4-3a8b55f6a20e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/behaviors.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/core.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/farm_tools.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/farm_tools.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/behaviors.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/behaviors.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/bootstrap_scripts.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/bootstrap_scripts.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="farm_tools.iws" />
@@ -66,19 +65,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="farm_tools.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="farm_tools.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/farm_tools.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="12" selection-start="29" selection-end="29" vertical-scroll-proportion="0.023709903" vertical-offset="0" max-vertical-offset="717">
+            <state line="1" column="12" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="behaviors.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="behaviors.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/behaviors.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="0" selection-start="1181" selection-end="1181" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+            <state line="1" column="6" selection-start="43" selection-end="43" vertical-scroll-proportion="-0.33286715" vertical-offset="255" max-vertical-offset="986">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap_scripts.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/bootstrap_scripts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="0" selection-start="635" selection-end="635" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="867">
               <folding />
             </state>
           </provider>
@@ -105,7 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/spec/dummy/config/routes.rb" />
         <option value="$PROJECT_DIR$/spec/dummy/app/models/test_model.rb" />
         <option value="$PROJECT_DIR$/spec/dummy/app/models/test_company.rb" />
         <option value="$PROJECT_DIR$/app/helpers/errors_helper.rb" />
@@ -131,7 +138,6 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/partials/_all.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/farm_tools.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/partials/_utilities.scss" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/bootstrap_scripts.js" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/lib/farm_tools/better_url.rb" />
         <option value="$PROJECT_DIR$/spec/dummy/app/models/better_url_object.rb" />
@@ -156,6 +162,8 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/core.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/visual_feedback.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/farm_tools.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/bootstrap_scripts.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/behaviors.js" />
       </list>
     </option>
   </component>
@@ -876,7 +884,11 @@
       <created>1423824145449</created>
       <updated>1423824145449</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="#head_info&#10;">
+      <created>1423826887451</created>
+      <updated>1423826887451</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -903,6 +915,7 @@
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4979757" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32839838" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4535666" sideWeight="0.82991016" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32839838" sideWeight="0.8209243" order="6" side_tool="false" content_ui="tabs" />
@@ -919,7 +932,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32523617" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4979757" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -964,7 +976,8 @@
     <MESSAGE value="facebook meta_tags" />
     <MESSAGE value="facebook meta_tags&#10;" />
     <MESSAGE value="#head_info" />
-    <option name="LAST_COMMIT_MESSAGE" value="#head_info" />
+    <MESSAGE value="#head_info&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="#head_info&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1194,11 +1207,6 @@
         <state line="1" column="18" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/bootstrap_scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="24" selection-start="527" selection-end="527" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/farm_tools.gemspec">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="32" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544" />
@@ -1225,16 +1233,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/behaviors.js">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/farm_tools.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="1181" selection-end="1181" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+        <state line="1" column="12" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/farm_tools.js">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/bootstrap_scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="12" selection-start="29" selection-end="29" vertical-scroll-proportion="0.023709903" vertical-offset="0" max-vertical-offset="717">
+        <state line="27" column="0" selection-start="635" selection-end="635" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/behaviors.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="6" selection-start="43" selection-end="43" vertical-scroll-proportion="-0.33286715" vertical-offset="255" max-vertical-offset="986">
           <folding />
         </state>
       </provider>

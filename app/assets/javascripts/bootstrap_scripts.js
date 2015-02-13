@@ -26,8 +26,6 @@ function onMediaQuery(screen_size, on_methods, off_methods) {
   });
 }
 
-
-
 function parseScreenSize(size){
   var val
   switch(size){

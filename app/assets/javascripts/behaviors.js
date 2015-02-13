@@ -1,3 +1,8 @@
+/*----------------------------------
+-hover
+-show hide
+
+-----------------------------------*/
 //-----------on hover methods-------------
 
 function imageChangeOnLinkHover(selector){
@@ -19,6 +24,16 @@ function toggleClassOnHover(selector, klass, persist){
     $(this).addClass(klass);
   }, function(){
     $(this).removeClass(klass);
+  })
+}
+
+function underlineLineItemLink(list_class, hover_color){
+  var line_item_selector = 'ul.' + list_class + ' li';
+  var original_color = rgb2hex($(line_item_selector).css('border-bottom-color'));
+  $(line_item_selector + ' a').hover(function(){
+    $(this).closest('li').css('border-bottom-color', hover_color);
+  }, function(){
+    $(this).closest('li').css('border-bottom-color', original_color);
   })
 }
 
