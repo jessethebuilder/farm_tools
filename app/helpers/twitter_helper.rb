@@ -1,5 +1,5 @@
 module TwitterHelper
-  def tweet_button(tweet, related, url: '', count: 'horizontal', via: '', lang: 'en', include_script: false)
+  def tweet_button(related, tweet: '', url: request.url, count: 'horizontal', via: '', lang: 'en', include_script: true)
     html = content_tag :a, 'Tweet #TwitterStories', :href => "https://twitter.com/share?text=#{tweet}", :class => 'twitter-share-button',
                        'data-lang' => lang,
                        'data-related' => related, 'data-url' => url, 'data-count' => count, 'data-via' => via

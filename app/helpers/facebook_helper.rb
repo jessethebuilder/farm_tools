@@ -6,7 +6,7 @@ module FacebookHelper
                        'data-width' => width
   end
 
-  def like_on_facebook_button(href, width: 100, layout: 'button_count', action: 'like', show_faces: true, share: true)
+  def like_on_facebook_button(href: request.url, width: 100, layout: 'button_count', action: 'like', show_faces: true, share: true)
     content_tag :div, '', :class => 'fb-like', 'data-href' => href, 'data-width' => width,
                        'data-layout' => layout, 'data-action' => action,
                        'data-show-faces' => show_faces, 'data-share' => share

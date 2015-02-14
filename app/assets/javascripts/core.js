@@ -20,12 +20,17 @@ function doReadyMethods(){
 }
 
 function doMethodsOnLoad(methods){
+  //unbind any handlers that carry over with turbolinks
+  $(document).unbind('page:load');
+
   $(document).ready(function(){
     doMethods(methods);
   })
   $(document).on('page:load', function(){
     doMethods(methods);
   })
+
+  ready_methods = [];
 }
 
 function doMethods(methods){
