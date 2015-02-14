@@ -12,6 +12,13 @@ function hex(x) {
 
 //--------do methods
 
+//push methods into ready methods
+var ready_methods = [];
+
+function doReadyMethods(){
+  doMethodsOnLoad(ready_methods)
+}
+
 function doMethodsOnLoad(methods){
   $(document).ready(function(){
     doMethods(methods);

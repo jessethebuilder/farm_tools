@@ -27,8 +27,8 @@ function toggleClassOnHover(selector, klass, persist){
   })
 }
 
-function underlineLineItemLink(list_class, hover_color){
-  var line_item_selector = 'ul.' + list_class + ' li';
+function underlineLineItemLink(list_selector, hover_color){
+  var line_item_selector = 'ul' + list_selector + ' li';
   var original_color = rgb2hex($(line_item_selector).css('border-bottom-color'));
   $(line_item_selector + ' a').hover(function(){
     $(this).closest('li').css('border-bottom-color', hover_color);

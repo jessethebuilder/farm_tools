@@ -1,3 +1,4 @@
+//= require vendor/enquire
 //= require core
 //= require behaviors
 //= require quick_options

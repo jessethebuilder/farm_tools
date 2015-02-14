@@ -14,6 +14,8 @@
 //}
 
 function onMediaQuery(screen_size, on_methods, off_methods) {
+  doMethods(off_methods);
+
   var size = parseScreenSize(screen_size);
 
   enquire.register("screen and (max-width:" + size + "px)", {
