@@ -5,6 +5,10 @@ FactoryGirl.define do
 
   end
 
+  factory :social_networking_profile do
+
+  end
+
   factory :farm_slugs_object do
     name Faker::Name.name
   end

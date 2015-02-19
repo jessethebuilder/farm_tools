@@ -11,9 +11,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140703225305) do
+ActiveRecord::Schema.define(version: 20150218022340) do
 
   create_table "addresses", force: true do |t|
+    t.string   "label"
     t.string   "street"
     t.string   "street2"
     t.string   "street3"
@@ -30,6 +31,15 @@ ActiveRecord::Schema.define(version: 20140703225305) do
     t.datetime "updated_at"
   end
 
+  create_table "contact_infos", force: true do |t|
+    t.string "phone"
+    t.string "phone2"
+    t.string "phone3"
+    t.string "main_email"
+    t.string "billing_email"
+    t.string "website_url"
+  end
+
   create_table "farm_slugs_objects", force: true do |t|
     t.string "name"
     t.string "slug"
@@ -40,6 +50,22 @@ ActiveRecord::Schema.define(version: 20140703225305) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "an_attr"
+  end
+
+  create_table "social_networking_profiles", force: true do |t|
+    t.string   "facebook_app_id"
+    t.string   "facebook_app_secret"
+    t.string   "facebook_id"
+    t.string   "twitter_app_id"
+    t.string   "twitter_id"
+    t.string   "has_social_networking_id"
+    t.string   "has_social_networking_type"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "tumblr_id"
+    t.string   "google_plus_id"
+    t.string   "pinterest_id"
+    t.string   "instagram_id"
   end
 
   create_table "test_companies", force: true do |t|
