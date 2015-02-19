@@ -2,33 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d09e1885-e9e5-46d3-afd4-3a8b55f6a20e" name="Default" comment="js behaviors&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20150218022242_create_contact_infos.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/contact_info.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/models/contact_info_spec.rb" />
-      <change type="DELETED" beforePath="C:\Users\jf\Desktop\jesseweb\farm_tools\spec\dummy\spec\controllers\test_companies_controller_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jf\Desktop\jesseweb\farm_tools\spec\dummy\spec\controllers\test_models_controller_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jf\Desktop\jesseweb\farm_tools\spec\dummy\spec\factories\test_companies.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jf\Desktop\jesseweb\farm_tools\spec\dummy\spec\factories\test_models.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jf\Desktop\jesseweb\farm_tools\spec\dummy\spec\helpers\test_companies_helper_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jf\Desktop\jesseweb\farm_tools\spec\dummy\spec\helpers\test_models_helper_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jf\Desktop\jesseweb\farm_tools\spec\dummy\spec\models\test_company_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jf\Desktop\jesseweb\farm_tools\spec\dummy\spec\models\test_model_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jf\Desktop\jesseweb\farm_tools\spec\dummy\spec\requests\test_companies_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jf\Desktop\jesseweb\farm_tools\spec\dummy\spec\requests\test_models_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jf\Desktop\jesseweb\farm_tools\spec\dummy\spec\routing\test_companies_routing_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jf\Desktop\jesseweb\farm_tools\spec\dummy\spec\routing\test_models_routing_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jf\Desktop\jesseweb\farm_tools\spec\factories.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jf\Desktop\jesseweb\farm_tools\spec\features\better_url_requests_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jf\Desktop\jesseweb\farm_tools\spec\models\better_url_object_spec.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20140317061105_create_social_networking_profiles.rb" afterPath="$PROJECT_DIR$/db/migrate/20140317061105_create_social_networking_profiles.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/farm_tools/engine.rb" afterPath="$PROJECT_DIR$/lib/farm_tools/engine.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/support/factories.rb" afterPath="$PROJECT_DIR$/spec/support/factories.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/farm_tools.iml" afterPath="$PROJECT_DIR$/.idea/farm_tools.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/dummy/db/schema.rb" afterPath="$PROJECT_DIR$/spec/dummy/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/contact_info.rb" afterPath="$PROJECT_DIR$/app/models/contact_info.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/social_networking_profile.rb" afterPath="$PROJECT_DIR$/app/models/social_networking_profile.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/social_networking_profile_spec.rb" afterPath="$PROJECT_DIR$/spec/models/social_networking_profile_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -51,8 +25,8 @@
     <SUITE FILE_PATH="coverage/farm_tools@app_spec__farm_tools.coverage" NAME="app:spec: farm_tools Coverage Results" MODIFIED="1424225585692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
     <SUITE FILE_PATH="coverage/farm_tools@app_db_migrate__farm_tools.coverage" NAME="app:db:migrate: farm_tools Coverage Results" MODIFIED="1424234540621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
     <SUITE FILE_PATH="coverage/farm_tools@db_reset__farm_tools.coverage" NAME="db:reset: farm_tools Coverage Results" MODIFIED="1424235964167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
+    <SUITE FILE_PATH="coverage/farm_tools@spec__farm_tools.coverage" NAME="spec: farm_tools Coverage Results" MODIFIED="1424312502694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
     <SUITE FILE_PATH="coverage/farm_tools@db_rollback__farm_tools.coverage" NAME="db:rollback: farm_tools Coverage Results" MODIFIED="1385713946173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
-    <SUITE FILE_PATH="coverage/farm_tools@spec__farm_tools.coverage" NAME="spec: farm_tools Coverage Results" MODIFIED="1424259464379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
     <SUITE FILE_PATH="coverage/farm_tools@db_migrate.coverage" NAME="db:migrate Coverage Results" MODIFIED="1390277841631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
     <SUITE FILE_PATH="coverage/farm_tools@Run_spec__farm_slugs_spec___farm_tools.coverage" NAME="Run spec 'farm_slugs_spec': farm_tools Coverage Results" MODIFIED="1424225388796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
   </component>
@@ -71,7 +45,7 @@
       <file leaf-file-name="contact_info_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/models/contact_info_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="20" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="255">
+            <state line="2" column="20" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
               <folding />
             </state>
           </provider>
@@ -80,7 +54,7 @@
       <file leaf-file-name="contact_info.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/contact_info.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="2" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="187">
+            <state line="11" column="28" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
               <folding />
             </state>
           </provider>
@@ -89,7 +63,7 @@
       <file leaf-file-name="20140317061105_create_social_networking_profiles.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/migrate/20140317061105_create_social_networking_profiles.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="671" selection-end="671" vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="578">
+            <state line="19" column="0" selection-start="671" selection-end="671" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
               <folding />
             </state>
           </provider>
@@ -104,6 +78,24 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="social_networking_profile.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/social_networking_profile.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="0" selection-start="751" selection-end="751" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="social_networking_profile_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/models/social_networking_profile_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="39" selection-start="1599" selection-end="1599" vertical-scroll-proportion="0.0" vertical-offset="620" max-vertical-offset="986">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="schema.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/dummy/db/schema.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -113,19 +105,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="farm_tools.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/farm_tools.rb">
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="25" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0" vertical-offset="29" max-vertical-offset="340">
+            <state line="43" column="17" selection-start="989" selection-end="989" vertical-scroll-proportion="1.4608433" vertical-offset="246" max-vertical-offset="833">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="engine.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/farm_tools/engine.rb">
+      <file leaf-file-name="farm_tools.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/farm_tools.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="35" selection-start="285" selection-end="285" vertical-scroll-proportion="0.1954023" vertical-offset="0" max-vertical-offset="696">
+            <state line="4" column="25" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0" vertical-offset="29" max-vertical-offset="340">
               <folding />
             </state>
           </provider>
@@ -200,18 +192,18 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/db/migrate/20150218021949_business.rb" />
         <option value="$PROJECT_DIR$/spec/support/factories.rb" />
-        <option value="$PROJECT_DIR$/spec/models/social_networking_profile_spec.rb" />
         <option value="$PROJECT_DIR$/app/models/business.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20150218022242_create_business.rb" />
-        <option value="$PROJECT_DIR$/app/models/social_networking_profile.rb" />
         <option value="$PROJECT_DIR$/spec/models/business_spec.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20150218022242_create_business_profiles.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20150218022340_make_contact_infos_polymorphic.rb" />
-        <option value="$PROJECT_DIR$/app/models/contact_info.rb" />
         <option value="$PROJECT_DIR$/lib/farm_tools/engine.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20150218022339_expand_social_networking_profile_columns.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20140317061105_create_social_networking_profiles.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20150218022242_create_contact_infos.rb" />
+        <option value="$PROJECT_DIR$/app/models/contact_info.rb" />
+        <option value="$PROJECT_DIR$/app/models/social_networking_profile.rb" />
+        <option value="$PROJECT_DIR$/spec/models/social_networking_profile_spec.rb" />
       </list>
     </option>
   </component>
@@ -276,7 +268,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -290,109 +282,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dummy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="farm_tools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="farm_tools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dummy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="farm_tools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="farm_tools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dummy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="migrate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="farm_tools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="farm_tools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="farm_tools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="farm_tools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="farm_tools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="farm_tools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="farm_tools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="migrate" />
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -427,7 +321,7 @@
       <recent name="C:\Users\jf\Desktop\jesseweb\farm_tools\app\views\utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="Rails.Development: farm_tools">
+  <component name="RunManager" selected="Rake.spec: farm_tools">
     <configuration default="false" name="app:db:migrate: farm_tools" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
       <module name="farm_tools" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -1003,7 +897,11 @@
       <created>1423914032174</created>
       <updated>1423914032174</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="js behaviors&#10;">
+      <created>1424308997336</created>
+      <updated>1424308997336</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1028,25 +926,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49663526" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32839838" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4534413" sideWeight="0.82991016" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32839838" sideWeight="0.8209243" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293011" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33825418" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23234917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39811066" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49460918" sideWeight="0.10911425" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48852903" sideWeight="0.8908858" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.48852903" sideWeight="0.8908858" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32523617" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49663526" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1211,7 +1109,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="359" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="359">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/farm_tools.gemspec">
@@ -1237,13 +1137,6 @@
     <entry file="file://$PROJECT_DIR$/spec/dummy/app/controllers/test_companies_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1088" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="17" selection-start="989" selection-end="989" vertical-scroll-proportion="0.0" vertical-offset="406" max-vertical-offset="833">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.13/lib/action_controller/metal/strong_parameters.rb">
@@ -1306,38 +1199,9 @@
         <state line="10" column="3" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/social_networking_profile_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="17" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/social_networking_profile.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="11" selection-start="892" selection-end="892" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/support/factories.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/contact_info_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="20" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/contact_info.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="2" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+        <state line="8" column="0" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
           <folding />
         </state>
       </provider>
@@ -1345,13 +1209,6 @@
     <entry file="file://$PROJECT_DIR$/lib/farm_tools.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="25" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0" vertical-offset="29" max-vertical-offset="340">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140317061105_create_social_networking_profiles.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="671" selection-end="671" vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="578">
           <folding />
         </state>
       </provider>
@@ -1372,7 +1229,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/farm_tools/engine.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="35" selection-start="285" selection-end="285" vertical-scroll-proportion="0.1954023" vertical-offset="0" max-vertical-offset="696">
+        <state line="8" column="35" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/contact_info.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="28" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/contact_info_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="20" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140317061105_create_social_networking_profiles.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="671" selection-end="671" vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/social_networking_profile.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="751" selection-end="751" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/social_networking_profile_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="39" selection-start="1599" selection-end="1599" vertical-scroll-proportion="0.0" vertical-offset="620" max-vertical-offset="986">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="17" selection-start="989" selection-end="989" vertical-scroll-proportion="1.4608433" vertical-offset="246" max-vertical-offset="833">
           <folding />
         </state>
       </provider>

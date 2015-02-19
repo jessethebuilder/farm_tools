@@ -5,7 +5,7 @@ class SocialNetworkingProfile < ActiveRecord::Base
     #this and similar methods are designed to take a url in, parse it, and save the id
     #if the id is known, simply save it in the proper column (such as :facebook_id)
     val =~ /https?:\/\/www\.facebook\.com\/([^?^\/]+)/
-    raise ArgumentError, "#{val} is not recognized as a valid Facebook url" if $~.nil?
+    #raise ArgumentError, "#{val} is not recognized as a valid Facebook url" if $~.nil?
     write_attribute(:facebook_id, $1)
   end
 
@@ -15,7 +15,7 @@ class SocialNetworkingProfile < ActiveRecord::Base
 
   def twitter_url=(val)
     val =~ /https?:\/\/www\.twitter\.com\/([^?^\/]+)/
-    raise ArgumentError, "#{val} is not recognized as a valid Twitter url" if $~.nil?
+    #raise ArgumentError, "#{val} is not recognized as a valid Twitter url" if $~.nil?
     write_attribute(:twitter_id, $1)
   end
 

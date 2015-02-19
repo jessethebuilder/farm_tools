@@ -42,8 +42,9 @@ describe SocialNetworkingProfile do
         end
 
 
-        it 'should raise an ArgumentError if val is not a url' do
-          expect{ snp.facebook_url = "blablabla" }.to raise_error(ArgumentError)
+        it 'should return nil if val is not a url' do
+          snp.facebook_url = "blablabla"
+          snp.facebook_id.should == nil
         end
       end
     end
