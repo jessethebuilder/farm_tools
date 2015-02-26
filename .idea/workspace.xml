@@ -2,13 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d09e1885-e9e5-46d3-afd4-3a8b55f6a20e" name="Default" comment="js behaviors&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/contact_info.rb" afterPath="$PROJECT_DIR$/app/models/contact_info.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/social_networking_profile.rb" afterPath="$PROJECT_DIR$/app/models/social_networking_profile.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/social_networking_profile_spec.rb" afterPath="$PROJECT_DIR$/spec/models/social_networking_profile_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/facebook_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/facebook_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/farm_tools.gemspec" afterPath="$PROJECT_DIR$/farm_tools.gemspec" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/farm_tools.iml" afterPath="$PROJECT_DIR$/.idea/farm_tools.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="farm_tools.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,18 +23,18 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/farm_tools@spec__farm_tools.coverage" NAME="spec: farm_tools Coverage Results" MODIFIED="1424312502694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
+    <SUITE FILE_PATH="coverage/farm_tools@Run_spec__farm_slugs_spec___farm_tools.coverage" NAME="Run spec 'farm_slugs_spec': farm_tools Coverage Results" MODIFIED="1424225388796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
+    <SUITE FILE_PATH="coverage/farm_tools@db_rollback__farm_tools.coverage" NAME="db:rollback: farm_tools Coverage Results" MODIFIED="1385713946173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
     <SUITE FILE_PATH="coverage/farm_tools@social_networking_profile.coverage" NAME="social_networking_profile Coverage Results" MODIFIED="1424228107746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/models" MODULE_NAME="farm_tools" />
-    <SUITE FILE_PATH="coverage/farm_tools@db_migrate__farm_tools.coverage" NAME="db:migrate: farm_tools Coverage Results" MODIFIED="1404428441157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
     <SUITE FILE_PATH="coverage/farm_tools@Run_spec__social_networking_profile_spec___farm_tools.coverage" NAME="Run spec 'social_networking_profile_spec': farm_tools Coverage Results" MODIFIED="1424227892901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
     <SUITE FILE_PATH="coverage/farm_tools@app_db_rollback__farm_tools.coverage" NAME="app:db:rollback: farm_tools Coverage Results" MODIFIED="1424232735061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
-    <SUITE FILE_PATH="coverage/farm_tools@IRB_console__farm_tools.coverage" NAME="IRB console: farm_tools Coverage Results" MODIFIED="1420160414416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
-    <SUITE FILE_PATH="coverage/farm_tools@app_spec__farm_tools.coverage" NAME="app:spec: farm_tools Coverage Results" MODIFIED="1424225585692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
-    <SUITE FILE_PATH="coverage/farm_tools@app_db_migrate__farm_tools.coverage" NAME="app:db:migrate: farm_tools Coverage Results" MODIFIED="1424234540621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
-    <SUITE FILE_PATH="coverage/farm_tools@db_reset__farm_tools.coverage" NAME="db:reset: farm_tools Coverage Results" MODIFIED="1424235964167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
-    <SUITE FILE_PATH="coverage/farm_tools@spec__farm_tools.coverage" NAME="spec: farm_tools Coverage Results" MODIFIED="1424312502694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
-    <SUITE FILE_PATH="coverage/farm_tools@db_rollback__farm_tools.coverage" NAME="db:rollback: farm_tools Coverage Results" MODIFIED="1385713946173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
     <SUITE FILE_PATH="coverage/farm_tools@db_migrate.coverage" NAME="db:migrate Coverage Results" MODIFIED="1390277841631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
-    <SUITE FILE_PATH="coverage/farm_tools@Run_spec__farm_slugs_spec___farm_tools.coverage" NAME="Run spec 'farm_slugs_spec': farm_tools Coverage Results" MODIFIED="1424225388796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
+    <SUITE FILE_PATH="coverage/farm_tools@db_migrate__farm_tools.coverage" NAME="db:migrate: farm_tools Coverage Results" MODIFIED="1404428441157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
+    <SUITE FILE_PATH="coverage/farm_tools@IRB_console__farm_tools.coverage" NAME="IRB console: farm_tools Coverage Results" MODIFIED="1420160414416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
+    <SUITE FILE_PATH="coverage/farm_tools@db_reset__farm_tools.coverage" NAME="db:reset: farm_tools Coverage Results" MODIFIED="1424235964167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
+    <SUITE FILE_PATH="coverage/farm_tools@app_db_migrate__farm_tools.coverage" NAME="app:db:migrate: farm_tools Coverage Results" MODIFIED="1424234540621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
+    <SUITE FILE_PATH="coverage/farm_tools@app_spec__farm_tools.coverage" NAME="app:spec: farm_tools Coverage Results" MODIFIED="1424225585692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="C:\Users\jf\Desktop\jesseweb\farm_tools" />
@@ -42,91 +48,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="contact_info_spec.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="contact_info_spec.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/models/contact_info_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="20" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+            <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="255">
+              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact_info.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="contact_info.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/contact_info.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="28" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+            <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="306">
+              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20140317061105_create_social_networking_profiles.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="20140317061105_create_social_networking_profiles.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/migrate/20140317061105_create_social_networking_profiles.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="671" selection-end="671" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+            <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="578">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spec_helper.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="spec_helper.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="social_networking_profile.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="social_networking_profile.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/social_networking_profile.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="751" selection-end="751" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+            <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="765">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="social_networking_profile_spec.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="social_networking_profile_spec.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/models/social_networking_profile_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="39" selection-start="1599" selection-end="1599" vertical-scroll-proportion="0.0" vertical-offset="620" max-vertical-offset="986">
+            <state vertical-scroll-proportion="0.0" vertical-offset="620" max-vertical-offset="986">
+              <caret line="46" column="39" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="schema.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/dummy/db/schema.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="215" max-vertical-offset="1547">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="17" selection-start="989" selection-end="989" vertical-scroll-proportion="1.4608433" vertical-offset="246" max-vertical-offset="833">
+            <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="833">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="farm_tools.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/farm_tools.rb">
+      <file leaf-file-name="farm_tools.gemspec" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/farm_tools.gemspec">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="25" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0" vertical-offset="29" max-vertical-offset="340">
+            <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="544">
+              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20150218022242_create_contact_infos.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20150218022242_create_contact_infos.rb">
+      <file leaf-file-name="facebook_sdk_for_turbolinks.js.coffee" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/facebook_sdk_for_turbolinks.js.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="37" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="357">
+            <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="697">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="facebook_helper.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/helpers/facebook_helper.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.50070125" vertical-offset="102" max-vertical-offset="1275">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -151,61 +167,17 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
-    <option name="changedFiles">
+    <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lib/farm_tools/save_draft_archive_delete.rb" />
-        <option value="$PROJECT_DIR$/app/helpers/quick_options.rb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/quick_options.css.scss" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/quick_options.js" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/toolbox.js" />
-        <option value="$PROJECT_DIR$/app/helpers/parts.rb" />
-        <option value="$PROJECT_DIR$/app/views/utilities/_image_select.html.erb" />
-        <option value="$PROJECT_DIR$/lib/farm_tools/monkey_patches.rb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/partials/_main.scss" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/partials/_all.scss" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/farm_tools.css.scss" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/partials/_utilities.scss" />
-        <option value="$PROJECT_DIR$/lib/farm_tools/better_url.rb" />
-        <option value="$PROJECT_DIR$/spec/dummy/app/models/better_url_object.rb" />
-        <option value="$PROJECT_DIR$/spec/lib/better_url_spec.rb" />
-        <option value="$PROJECT_DIR$/lib/farm_tools.rb" />
-        <option value="$PROJECT_DIR$/spec/dummy/db/migrate/20131223092900_create_farm_slugs_object.rb" />
-        <option value="$PROJECT_DIR$/spec/factories.rb" />
-        <option value="$PROJECT_DIR$/lib/farm_tools/zip_distance.rb" />
-        <option value="$PROJECT_DIR$/spec/dummy/app/models/farm_slugs_object.rb" />
-        <option value="$PROJECT_DIR$/spec/dummy/spec/models/test_model_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/dummy/spec/models/test_company_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/dummy/spec/helpers/test_models_helper_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/dummy/spec/helpers/test_companies_helper_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/lib/farm_slugs_spec.rb" />
-        <option value="$PROJECT_DIR$/lib/farm_tools/farm_slugs.rb" />
-        <option value="$PROJECT_DIR$/lib/farm_tools/version.rb" />
-        <option value="$PROJECT_DIR$/app/helpers/html_tools.rb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/visual_feedback.js" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/bootstrap_scripts.js" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/farm_tools.js" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/behaviors.js" />
-        <option value="$PROJECT_DIR$/app/helpers/facebook_helper.rb" />
-        <option value="$PROJECT_DIR$/app/helpers/twitter_helper.rb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/core.js" />
-        <option value="$PROJECT_DIR$/farm_tools.gemspec" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/db/migrate/20150218021949_business.rb" />
-        <option value="$PROJECT_DIR$/spec/support/factories.rb" />
-        <option value="$PROJECT_DIR$/app/models/business.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20150218022242_create_business.rb" />
-        <option value="$PROJECT_DIR$/spec/models/business_spec.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20150218022242_create_business_profiles.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20150218022340_make_contact_infos_polymorphic.rb" />
-        <option value="$PROJECT_DIR$/lib/farm_tools/engine.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20150218022339_expand_social_networking_profile_columns.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20140317061105_create_social_networking_profiles.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20150218022242_create_contact_infos.rb" />
-        <option value="$PROJECT_DIR$/app/models/contact_info.rb" />
-        <option value="$PROJECT_DIR$/app/models/social_networking_profile.rb" />
-        <option value="$PROJECT_DIR$/spec/models/social_networking_profile_spec.rb" />
+        <option value="$PROJECT_DIR$/farm_tools.gemspec" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/facebook_sdk_for_turbolinks.js.coffee" />
+        <option value="$PROJECT_DIR$/app/helpers/facebook_helper.rb" />
       </list>
     </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -227,7 +199,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -240,6 +212,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -286,13 +259,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
+              <option name="myItemId" value="helpers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -393,6 +365,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
@@ -506,6 +479,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method />
     </configuration>
@@ -525,7 +499,7 @@
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
@@ -548,6 +522,7 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method />
     </configuration>
@@ -595,9 +570,19 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
     <list size="9">
@@ -643,262 +628,301 @@
     <task active="true" id="Default" summary="Default task">
       <changelist id="d09e1885-e9e5-46d3-afd4-3a8b55f6a20e" name="Default" comment="" />
       <created>1385619019499</created>
+      <option name="number" value="Default" />
       <updated>1385619019499</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Initial commit&#10;">
-      <created>1385897077511</created>
-      <updated>1385897077511</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Therapy Stuff">
-      <created>1386059579688</created>
-      <updated>1386059579688</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Added #array_for_select&#10;">
-      <created>1386652089768</created>
-      <updated>1386652089768</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Added #array_for_select&#10;">
-      <created>1386652828757</created>
-      <updated>1386652828757</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Added to Array: move(from, to, move!(from, to)&#10;">
-      <created>1387582244651</created>
-      <updated>1387582244651</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Added Array #out_of_range?(index)">
-      <created>1387584727292</created>
-      <updated>1387584727292</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Added Array #out_of_range?(index)&#10;">
-      <created>1387586341620</created>
-      <updated>1387586341620</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Added Array #out_of_range?(index)&#10;">
-      <created>1387593483739</created>
-      <updated>1387593483739</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Added Array #out_of_range?(index)&#10;">
-      <created>1388386465271</created>
-      <updated>1388386465271</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Added Array #out_of_range?(index)&#10;">
-      <created>1390019207549</created>
-      <updated>1390019207549</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Added Facebook Social Plugin&#10;">
-      <created>1390020385498</created>
-      <updated>1390020385498</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Added Facebook Social Plugin&#10;">
-      <created>1390021338140</created>
-      <updated>1390021338140</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Added Facebook Social Plugin&#10;">
-      <created>1390021690912</created>
-      <updated>1390021690912</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Added Facebook Social Plugin&#10;">
-      <created>1390029142876</created>
-      <updated>1390029142876</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Added Facebook Social Plugin&#10;">
-      <created>1390029539743</created>
-      <updated>1390029539743</updated>
     </task>
     <task id="LOCAL-00016" summary="Added Facebook Social Plugin&#10;">
       <created>1390280366292</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
       <updated>1390280366292</updated>
     </task>
     <task id="LOCAL-00017" summary="Added Facebook Social Plugin&#10;">
       <created>1392681120156</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
       <updated>1392681120156</updated>
     </task>
     <task id="LOCAL-00018" summary="Added Facebook Social Plugin&#10;">
       <created>1392691333712</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
       <updated>1392691333712</updated>
     </task>
     <task id="LOCAL-00019" summary="Added TwitterHelper and FacebookHelper">
       <created>1393028424854</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
       <updated>1393028424854</updated>
     </task>
     <task id="LOCAL-00020" summary="Added TwitterHelper and FacebookHelper&#10;">
       <created>1393028658356</created>
+      <option name="number" value="00020" />
+      <option name="project" value="LOCAL" />
       <updated>1393028658356</updated>
     </task>
     <task id="LOCAL-00021" summary="Added TwitterHelper and FacebookHelper&#10;">
       <created>1393036434469</created>
+      <option name="number" value="00021" />
+      <option name="project" value="LOCAL" />
       <updated>1393036434469</updated>
     </task>
     <task id="LOCAL-00022" summary="Added TwitterHelper and FacebookHelper&#10;">
       <created>1393304067122</created>
+      <option name="number" value="00022" />
+      <option name="project" value="LOCAL" />
       <updated>1393304067122</updated>
     </task>
     <task id="LOCAL-00023" summary="Added TwitterHelper and FacebookHelper&#10;">
       <created>1393379025896</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
       <updated>1393379025896</updated>
     </task>
     <task id="LOCAL-00024" summary="Added TwitterHelper and FacebookHelper&#10;">
       <created>1393379791233</created>
+      <option name="number" value="00024" />
+      <option name="project" value="LOCAL" />
       <updated>1393379791233</updated>
     </task>
     <task id="LOCAL-00025" summary="Added TwitterHelper and FacebookHelper&#10;">
       <created>1393380499920</created>
+      <option name="number" value="00025" />
+      <option name="project" value="LOCAL" />
       <updated>1393380499920</updated>
     </task>
     <task id="LOCAL-00026" summary="Added TwitterHelper and FacebookHelper&#10;">
       <created>1394167988310</created>
+      <option name="number" value="00026" />
+      <option name="project" value="LOCAL" />
       <updated>1394167988310</updated>
     </task>
     <task id="LOCAL-00027" summary="Added TwitterHelper and FacebookHelper&#10;">
       <created>1395528508130</created>
+      <option name="number" value="00027" />
+      <option name="project" value="LOCAL" />
       <updated>1395528508130</updated>
     </task>
     <task id="LOCAL-00028" summary="Migrations&#10;">
       <created>1395531243509</created>
+      <option name="number" value="00028" />
+      <option name="project" value="LOCAL" />
       <updated>1395531243509</updated>
     </task>
     <task id="LOCAL-00029" summary="Migrations&#10;">
       <created>1395531264249</created>
+      <option name="number" value="00029" />
+      <option name="project" value="LOCAL" />
       <updated>1395531264249</updated>
     </task>
     <task id="LOCAL-00030" summary="Migrations&#10;">
       <created>1395531776279</created>
+      <option name="number" value="00030" />
+      <option name="project" value="LOCAL" />
       <updated>1395531776279</updated>
     </task>
     <task id="LOCAL-00031" summary="Migrations&#10;">
       <created>1396134445787</created>
+      <option name="number" value="00031" />
+      <option name="project" value="LOCAL" />
       <updated>1396134445787</updated>
     </task>
     <task id="LOCAL-00032" summary="Migrations&#10;">
       <created>1404438074259</created>
+      <option name="number" value="00032" />
+      <option name="project" value="LOCAL" />
       <updated>1404438074259</updated>
     </task>
     <task id="LOCAL-00033" summary="Migrations&#10;">
       <created>1411243036376</created>
+      <option name="number" value="00033" />
+      <option name="project" value="LOCAL" />
       <updated>1411243036376</updated>
     </task>
     <task id="LOCAL-00034" summary="Updates to Address&#10;">
       <created>1419640930489</created>
+      <option name="number" value="00034" />
+      <option name="project" value="LOCAL" />
       <updated>1419640930489</updated>
     </task>
     <task id="LOCAL-00035" summary="made SocialNetworking compatible with TurboLinks">
       <created>1419921516919</created>
+      <option name="number" value="00035" />
+      <option name="project" value="LOCAL" />
       <updated>1419921516920</updated>
     </task>
     <task id="LOCAL-00036" summary="SaveDraftArchiveDelete">
       <created>1420173155039</created>
+      <option name="number" value="00036" />
+      <option name="project" value="LOCAL" />
       <updated>1420173155039</updated>
     </task>
     <task id="LOCAL-00037" summary="SaveDraftArchiveDelete&#10;">
       <created>1420173835628</created>
+      <option name="number" value="00037" />
+      <option name="project" value="LOCAL" />
       <updated>1420173835628</updated>
     </task>
     <task id="LOCAL-00038" summary="SaveDraftArchiveDelete&#10;">
       <created>1420187767915</created>
+      <option name="number" value="00038" />
+      <option name="project" value="LOCAL" />
       <updated>1420187767915</updated>
     </task>
     <task id="LOCAL-00039" summary="SaveDraftArchiveDelete&#10;">
       <created>1420189290542</created>
+      <option name="number" value="00039" />
+      <option name="project" value="LOCAL" />
       <updated>1420189290542</updated>
     </task>
     <task id="LOCAL-00040" summary="SaveDraftArchiveDelete&#10;">
       <created>1420192305734</created>
+      <option name="number" value="00040" />
+      <option name="project" value="LOCAL" />
       <updated>1420192305734</updated>
     </task>
     <task id="LOCAL-00041" summary="SaveDraftArchiveDelete&#10;">
       <created>1420248256669</created>
+      <option name="number" value="00041" />
+      <option name="project" value="LOCAL" />
       <updated>1420248256669</updated>
     </task>
     <task id="LOCAL-00042" summary="Rest Helper">
       <created>1420433952511</created>
+      <option name="number" value="00042" />
+      <option name="project" value="LOCAL" />
       <updated>1420433952511</updated>
     </task>
     <task id="LOCAL-00043" summary="Rest Helper&#10;">
       <created>1420434215503</created>
+      <option name="number" value="00043" />
+      <option name="project" value="LOCAL" />
       <updated>1420434215503</updated>
     </task>
     <task id="LOCAL-00044" summary="Rest Helper&#10;">
       <created>1420435095951</created>
+      <option name="number" value="00044" />
+      <option name="project" value="LOCAL" />
       <updated>1420435095951</updated>
     </task>
     <task id="LOCAL-00045" summary="Rest Helper&#10;">
       <created>1420435879744</created>
+      <option name="number" value="00045" />
+      <option name="project" value="LOCAL" />
       <updated>1420435879744</updated>
     </task>
     <task id="LOCAL-00046" summary="Rest Helper&#10;">
       <created>1420435905148</created>
+      <option name="number" value="00046" />
+      <option name="project" value="LOCAL" />
       <updated>1420435905148</updated>
     </task>
     <task id="LOCAL-00047" summary="Rest Helper&#10;">
       <created>1420436654215</created>
+      <option name="number" value="00047" />
+      <option name="project" value="LOCAL" />
       <updated>1420436654215</updated>
     </task>
     <task id="LOCAL-00048" summary="Rest Helper&#10;">
       <created>1420438317380</created>
+      <option name="number" value="00048" />
+      <option name="project" value="LOCAL" />
       <updated>1420438317380</updated>
     </task>
     <task id="LOCAL-00049" summary="Rest Helper&#10;">
       <created>1420438322577</created>
+      <option name="number" value="00049" />
+      <option name="project" value="LOCAL" />
       <updated>1420438322577</updated>
     </task>
     <task id="LOCAL-00050" summary="Rest Helper&#10;">
       <created>1420927685735</created>
+      <option name="number" value="00050" />
+      <option name="project" value="LOCAL" />
       <updated>1420927685736</updated>
     </task>
     <task id="LOCAL-00051" summary="Javascripts for Farmtools&#10;">
       <created>1420928834755</created>
+      <option name="number" value="00051" />
+      <option name="project" value="LOCAL" />
       <updated>1420928834755</updated>
     </task>
     <task id="LOCAL-00052" summary="Javascripts for Farmtools&#10;">
       <created>1421012601467</created>
+      <option name="number" value="00052" />
+      <option name="project" value="LOCAL" />
       <updated>1421012601467</updated>
     </task>
     <task id="LOCAL-00053" summary="Monkey Patches to ActiveRecord::Base">
       <created>1421786521505</created>
+      <option name="number" value="00053" />
+      <option name="project" value="LOCAL" />
       <updated>1421786521506</updated>
     </task>
     <task id="LOCAL-00054" summary="Utility Classes">
       <created>1422227188435</created>
+      <option name="number" value="00054" />
+      <option name="project" value="LOCAL" />
       <updated>1422227188435</updated>
     </task>
     <task id="LOCAL-00055" summary="onMediaQuery">
       <created>1422265247711</created>
+      <option name="number" value="00055" />
+      <option name="project" value="LOCAL" />
       <updated>1422265247711</updated>
     </task>
     <task id="LOCAL-00056" summary="Farm Slugs">
       <created>1423185814296</created>
+      <option name="number" value="00056" />
+      <option name="project" value="LOCAL" />
       <updated>1423185814296</updated>
     </task>
     <task id="LOCAL-00057" summary="facebook meta_tags">
       <created>1423653095027</created>
+      <option name="number" value="00057" />
+      <option name="project" value="LOCAL" />
       <updated>1423653095027</updated>
     </task>
     <task id="LOCAL-00058" summary="facebook meta_tags&#10;">
       <created>1423653644215</created>
+      <option name="number" value="00058" />
+      <option name="project" value="LOCAL" />
       <updated>1423653644215</updated>
     </task>
     <task id="LOCAL-00059" summary="#head_info">
       <created>1423824145449</created>
+      <option name="number" value="00059" />
+      <option name="project" value="LOCAL" />
       <updated>1423824145449</updated>
     </task>
     <task id="LOCAL-00060" summary="#head_info&#10;">
       <created>1423826887451</created>
+      <option name="number" value="00060" />
+      <option name="project" value="LOCAL" />
       <updated>1423826887451</updated>
     </task>
     <task id="LOCAL-00061" summary="js behaviors">
       <created>1423828513265</created>
+      <option name="number" value="00061" />
+      <option name="project" value="LOCAL" />
       <updated>1423828513265</updated>
     </task>
     <task id="LOCAL-00062" summary="js behaviors&#10;">
       <created>1423876761099</created>
+      <option name="number" value="00062" />
+      <option name="project" value="LOCAL" />
       <updated>1423876761099</updated>
     </task>
     <task id="LOCAL-00063" summary="js behaviors&#10;">
       <created>1423914032174</created>
+      <option name="number" value="00063" />
+      <option name="project" value="LOCAL" />
       <updated>1423914032174</updated>
     </task>
     <task id="LOCAL-00064" summary="js behaviors&#10;">
       <created>1424308997336</created>
+      <option name="number" value="00064" />
+      <option name="project" value="LOCAL" />
       <updated>1424308997336</updated>
     </task>
     <option name="localTasksCounter" value="65" />
@@ -926,28 +950,29 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49663526" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32839838" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4534413" sideWeight="0.82991016" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32839838" sideWeight="0.8209243" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293011" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23234917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39811066" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24807198" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49460918" sideWeight="0.10911425" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.48852903" sideWeight="0.8908858" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293011" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32523617" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39811066" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5103896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48802018" sideWeight="0.8908858" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="UnknownFeatures">
@@ -955,6 +980,9 @@
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
   </component>
@@ -996,293 +1024,376 @@
     <breakpoint-manager>
       <option name="time" value="10" />
     </breakpoint-manager>
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/farm_tools/engine.rb">
+    <entry file="file://$PROJECT_DIR$/spec/dummy/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="35" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="215" max-vertical-offset="1547">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20150218022242_create_contact_infos.rb">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="37" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="357">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/dummy/db/migrate/20131129030317_create_gens.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="694" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/dummy/db/migrate/20131223092900_create_farm_slugs_objects.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="28" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/farm_tools/rest_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="6" selection-start="173" selection-end="173" vertical-scroll-proportion="0.56657225" vertical-offset="4" max-vertical-offset="357" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/farm_tools/zip_distance.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="23" selection-start="2420" selection-end="2420" vertical-scroll-proportion="0.45" vertical-offset="680" max-vertical-offset="1037" />
-      </provider>
-    </entry>
-    <entry file="file://C:/Ruby200/lib/ruby/gems/2.0.0/gems/activerecord-4.0.0/lib/active_record/dynamic_matchers.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="8" selection-start="505" selection-end="505" vertical-scroll-proportion="0.33144477" vertical-offset="121" max-vertical-offset="2329" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/dummy/app/models/farm_slugs_object.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/farm_tools/farm_slugs.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="51" selection-start="852" selection-end="852" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1071" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rest_Helper_.patch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2397" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140304023525_create_addresses.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/farm_tools/version.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="18" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/bootstrap_scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="662" selection-end="662" vertical-scroll-proportion="0.0" vertical-offset="186" max-vertical-offset="901" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/farm_tools.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="102" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/partials/_utilities.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="1" selection-start="841" selection-end="841" vertical-scroll-proportion="0.0" vertical-offset="82" max-vertical-offset="799" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/farm_tools.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="27" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="694" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/behaviors.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="47" selection-start="1061" selection-end="1061" vertical-scroll-proportion="0.0" vertical-offset="317" max-vertical-offset="986" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/html_tools.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="32" selection-start="1334" selection-end="1334" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/facebook_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="21" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1258" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/twitter_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="66" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/core.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0" vertical-offset="35" max-vertical-offset="833" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="359">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/farm_tools.gemspec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="16" selection-start="580" selection-end="580" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rakefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/dummy/app/controllers/better_url_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="334" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/dummy/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="334" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/dummy/app/controllers/test_companies_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1088" />
-      </provider>
-    </entry>
-    <entry file="file://C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.13/lib/action_controller/metal/strong_parameters.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="0" selection-start="4048" selection-end="4048" vertical-scroll-proportion="0.0" vertical-offset="1674" max-vertical-offset="9435" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/lib/string_tools_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/lib/zip_distance_helper_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/address_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="332" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/businesses/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/rails">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="293" selection-end="293" vertical-scroll-proportion="0.35628742" vertical-offset="0" max-vertical-offset="334" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/lib/monkey_patches_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1785" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/lib/disk_helper_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/lib/farm_slugs_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="14" selection-start="2395" selection-end="2395" vertical-scroll-proportion="0.33233532" vertical-offset="1266" max-vertical-offset="1649" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/businesses_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1088" />
-      </provider>
-    </entry>
-    <entry file="file://C:/Ruby200/lib/ruby/gems/2.0.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="228" column="0" selection-start="8341" selection-end="8341" vertical-scroll-proportion="0.33235294" vertical-offset="3763" max-vertical-offset="12393" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/address.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="3" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/support/factories.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="833">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/farm_tools.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="25" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0" vertical-offset="29" max-vertical-offset="340">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="29" max-vertical-offset="340">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20150218022242_create_contact_infos.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="37" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/dummy/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="215" max-vertical-offset="1547">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="357">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/farm_tools/engine.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="35" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+          <caret line="8" column="35" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20150218022242_create_contact_infos.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="357">
+          <caret line="11" column="37" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/dummy/db/migrate/20131129030317_create_gens.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="694">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/dummy/db/migrate/20131223092900_create_farm_slugs_objects.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
+          <caret line="0" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/farm_tools/rest_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56657225" vertical-offset="4" max-vertical-offset="357">
+          <caret line="12" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/farm_tools/zip_distance.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45" vertical-offset="680" max-vertical-offset="1037">
+          <caret line="49" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/dummy/app/models/farm_slugs_object.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
+          <caret line="2" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/farm_tools/farm_slugs.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1071">
+          <caret line="28" column="51" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rest_Helper_.patch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2397">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140304023525_create_addresses.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+          <caret line="4" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/farm_tools/version.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
+          <caret line="1" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/bootstrap_scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="186" max-vertical-offset="901">
+          <caret line="29" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/farm_tools.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="102">
+          <caret line="0" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/partials/_utilities.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="82" max-vertical-offset="799">
+          <caret line="39" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/farm_tools.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="694">
+          <caret line="0" column="27" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/behaviors.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="317" max-vertical-offset="986">
+          <caret line="31" column="47" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/html_tools.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
+          <caret line="49" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/twitter_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+          <caret line="1" column="66" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/core.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="35" max-vertical-offset="833">
+          <caret line="24" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="359">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rakefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <caret line="7" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/dummy/app/controllers/better_url_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="334">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/dummy/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="334">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/dummy/app/controllers/test_companies_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1088">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/lib/string_tools_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/lib/zip_distance_helper_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <caret line="6" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/address_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="332">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/rails">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35628742" vertical-offset="0" max-vertical-offset="334">
+          <caret line="7" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/lib/monkey_patches_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1785">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/lib/disk_helper_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/lib/farm_slugs_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33233532" vertical-offset="1266" max-vertical-offset="1649">
+          <caret line="81" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/address.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+          <caret line="10" column="3" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/support/factories.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <caret line="8" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/farm_tools.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="29" max-vertical-offset="340">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20150218022242_create_contact_infos.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="357">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/dummy/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="215" max-vertical-offset="1547">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/farm_tools/engine.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+          <caret line="8" column="35" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/contact_info.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="28" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+        <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="306">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/models/contact_info_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="20" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="255">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140317061105_create_social_networking_profiles.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="671" selection-end="671" vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="578">
+        <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="578">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/social_networking_profile.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="751" selection-end="751" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="765">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/models/social_networking_profile_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="39" selection-start="1599" selection-end="1599" vertical-scroll-proportion="0.0" vertical-offset="620" max-vertical-offset="986">
+        <state vertical-scroll-proportion="0.0" vertical-offset="620" max-vertical-offset="986">
+          <caret line="46" column="39" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="17" selection-start="989" selection-end="989" vertical-scroll-proportion="1.4608433" vertical-offset="246" max-vertical-offset="833">
+        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="833">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/farm_tools.gemspec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/facebook_sdk_for_turbolinks.js.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="697">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/facebook_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50070125" vertical-offset="102" max-vertical-offset="1275">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
   </component>
 </project>
-

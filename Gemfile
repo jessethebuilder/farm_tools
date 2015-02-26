@@ -6,7 +6,7 @@ source "https://rubygems.org"
 gemspec
 
 # jquery-rails is used by the dummy application
-gem 'rails', '4.0.2'
+gem 'rails', '4.2'
 gem "jquery-rails"
 
 # Declare any dependencies that are still in development here instead of in

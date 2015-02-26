@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = FarmTools::VERSION
   s.authors     = ["Jesse Farmer"]
   s.email       = ["jessethebuilder@yahoo.com"]
-  s.homepage    = "http://www.anysoft.us"
+  s.homepage    = "http://anysoft.us"
   s.summary     = "Rails Tools"
   s.description = "Various Tools"
 
