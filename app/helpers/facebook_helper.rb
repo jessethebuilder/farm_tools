@@ -38,6 +38,8 @@ module FacebookHelper
       html = javascript_include_tag 'facebook_sdk_for_turbolinks'
     end
 
+    html += %Q|<meta property="fb:app_id" content="#{fb_id}"|
+
     html.html_safe
   end
 
