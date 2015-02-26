@@ -38,8 +38,7 @@ module FacebookHelper
       html = javascript_include_tag 'facebook_sdk_for_turbolinks'
     end
 
-    html
-    # html.html_safe
+    html.html_safe
   end
 
 
