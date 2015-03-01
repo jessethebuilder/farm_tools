@@ -19,12 +19,12 @@
     <SUITE FILE_PATH="coverage/farm_tools@spec__farm_tools.coverage" NAME="spec: farm_tools Coverage Results" MODIFIED="1424312502694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
     <SUITE FILE_PATH="coverage/farm_tools@Run_spec__farm_slugs_spec___farm_tools.coverage" NAME="Run spec 'farm_slugs_spec': farm_tools Coverage Results" MODIFIED="1424225388796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
     <SUITE FILE_PATH="coverage/farm_tools@db_rollback__farm_tools.coverage" NAME="db:rollback: farm_tools Coverage Results" MODIFIED="1385713946173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
-    <SUITE FILE_PATH="coverage/farm_tools@db_migrate.coverage" NAME="db:migrate Coverage Results" MODIFIED="1390277841631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
-    <SUITE FILE_PATH="coverage/farm_tools@app_db_rollback__farm_tools.coverage" NAME="app:db:rollback: farm_tools Coverage Results" MODIFIED="1424232735061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
-    <SUITE FILE_PATH="coverage/farm_tools@Run_spec__social_networking_profile_spec___farm_tools.coverage" NAME="Run spec 'social_networking_profile_spec': farm_tools Coverage Results" MODIFIED="1424227892901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
     <SUITE FILE_PATH="coverage/farm_tools@social_networking_profile.coverage" NAME="social_networking_profile Coverage Results" MODIFIED="1424228107746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/models" MODULE_NAME="farm_tools" />
-    <SUITE FILE_PATH="coverage/farm_tools@IRB_console__farm_tools.coverage" NAME="IRB console: farm_tools Coverage Results" MODIFIED="1420160414416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
+    <SUITE FILE_PATH="coverage/farm_tools@Run_spec__social_networking_profile_spec___farm_tools.coverage" NAME="Run spec 'social_networking_profile_spec': farm_tools Coverage Results" MODIFIED="1424227892901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
+    <SUITE FILE_PATH="coverage/farm_tools@app_db_rollback__farm_tools.coverage" NAME="app:db:rollback: farm_tools Coverage Results" MODIFIED="1424232735061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
+    <SUITE FILE_PATH="coverage/farm_tools@db_migrate.coverage" NAME="db:migrate Coverage Results" MODIFIED="1390277841631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
     <SUITE FILE_PATH="coverage/farm_tools@db_migrate__farm_tools.coverage" NAME="db:migrate: farm_tools Coverage Results" MODIFIED="1404428441157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
+    <SUITE FILE_PATH="coverage/farm_tools@IRB_console__farm_tools.coverage" NAME="IRB console: farm_tools Coverage Results" MODIFIED="1420160414416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
     <SUITE FILE_PATH="coverage/farm_tools@db_reset__farm_tools.coverage" NAME="db:reset: farm_tools Coverage Results" MODIFIED="1424235964167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
     <SUITE FILE_PATH="coverage/farm_tools@app_db_migrate__farm_tools.coverage" NAME="app:db:migrate: farm_tools Coverage Results" MODIFIED="1424234540621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
     <SUITE FILE_PATH="coverage/farm_tools@app_spec__farm_tools.coverage" NAME="app:spec: farm_tools Coverage Results" MODIFIED="1424225585692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="farm_tools" />
@@ -54,8 +54,8 @@
       <file leaf-file-name="facebook_helper.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/helpers/facebook_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42917252" vertical-offset="102" max-vertical-offset="1309">
-              <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.8333333" vertical-offset="102" max-vertical-offset="1309">
+              <caret line="41" column="62" selection-start-line="41" selection-start-column="62" selection-end-line="41" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -127,6 +127,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="RailsProjectView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -219,8 +221,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -587,12 +587,6 @@
       <option name="number" value="Default" />
       <updated>1385619019499</updated>
     </task>
-    <task id="LOCAL-00021" summary="Added TwitterHelper and FacebookHelper&#10;">
-      <created>1393036434469</created>
-      <option name="number" value="00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1393036434469</updated>
-    </task>
     <task id="LOCAL-00022" summary="Added TwitterHelper and FacebookHelper&#10;">
       <created>1393304067122</created>
       <option name="number" value="00022" />
@@ -881,7 +875,13 @@
       <option name="project" value="LOCAL" />
       <updated>1425173746167</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="add fb:app_id meta tag to facebook sdk&#10;">
+      <created>1425173773640</created>
+      <option name="number" value="00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1425173773640</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -908,14 +908,13 @@
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.51012146" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32839838" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4534413" sideWeight="0.82991016" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32839838" sideWeight="0.8209243" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26413882" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2673522" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49460918" sideWeight="0.10911425" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -925,6 +924,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32479784" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39811066" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.51012146" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48802018" sideWeight="0.8908858" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1338,8 +1338,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/facebook_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42917252" vertical-offset="102" max-vertical-offset="1309">
-          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.8333333" vertical-offset="102" max-vertical-offset="1309">
+          <caret line="41" column="62" selection-start-line="41" selection-start-column="62" selection-end-line="41" selection-end-column="62" />
           <folding />
         </state>
       </provider>
