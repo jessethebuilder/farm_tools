@@ -37,6 +37,8 @@ function underlineLineItemLink(list_selector, hover_color){
   })
 }
 
+
+
 //-----------show hide-----------------
 
 function hideOnClickAndShow(click_selector, show_selector, hide_selector){
