@@ -25,7 +25,8 @@ module FacebookHelper
 
   def facebook_sdk(fb_id, turbolinks: false)
     unless turbolinks
-      html = '<div id="fb-root"></div>'
+      html = %Q|<meta propty="fb:app_id" content="#{fb_id}">|
+      html += '<div id="fb-root"></div>'
       html += '<script>(function(d, s, id) {
                         var js, fjs = d.getElementsByTagName(s)[0];
                         if (d.getElementById(id)) return;
@@ -39,7 +40,6 @@ module FacebookHelper
       html = javascript_include_tag 'facebook_sdk_for_turbolinks'
     end
 
-    html += %Q|<meta property="fb:app_id" content="#{fb_id}">|
 
     html.html_safe
   end
