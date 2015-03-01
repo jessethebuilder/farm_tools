@@ -22,6 +22,7 @@ module FacebookHelper
     html.html_safe
   end
 
+
   def facebook_sdk(fb_id, turbolinks: false)
     unless turbolinks
       html = '<div id="fb-root"></div>'
