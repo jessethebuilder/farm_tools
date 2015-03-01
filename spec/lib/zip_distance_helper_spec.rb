@@ -7,7 +7,7 @@ describe ZipDistance do
     it 'should return every zip code in the radius' do
       zip_arr = zips_near(98362, 5)
       #not a very comprehensive spec
-      zip_arr.include?('98362').should be_true
+      zip_arr.include?('98362').should == true
     end
   end
 end

@@ -8,19 +8,20 @@ Gem::Specification.new do |s|
   s.name        = "farm_tools"
   s.version     = FarmTools::VERSION
   s.authors     = ["Jesse Farmer"]
-  s.email       = ["jessethebuilder@yahoo.com"]
+  s.email       = ["jesse@anysoft.us"]
   s.homepage    = "http://anysoft.us"
-  s.summary     = "Rails Tools"
+  s.summary     = "Rails Tools that anysoft uses. Feel free to check them out."
   s.description = "Various Tools"
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
 
-  s.add_dependency "rails"
+  # s.add_dependency "rails"
   # s.add_dependency "jquery-rails"
 
   s.add_development_dependency "sqlite3"
+  s.add_dependency "koala"
 
-  s.add_development_dependency 'rspec-rails'
-  s.add_development_dependency 'capybara'
-  s.add_development_dependency 'factory_girl_rails'
+  # s.add_development_dependency 'rspec-rails'
+  # s.add_development_dependency 'capybara'
+  # s.add_development_dependency 'factory_girl_rails'
 end

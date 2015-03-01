@@ -7,12 +7,12 @@ describe DiskHelper do
     end
 
     it 'should return all of the file names in a path' do
-      DiskHelper.file_names('C:/Users/jf/Desktop/jesseweb/farm_tools/spec/*.rb').should include('spec_helper.rb')
+      DiskHelper.file_names('C:/Users/bucky/desktop/jesseweb/farm_tools/farm_tools/spec/*.rb').should include('spec_helper.rb')
     end
 
     it 'should drop any suffix that is included as a parameter' do
-      DiskHelper.file_names('C:/Users/jf/Desktop/jesseweb/farm_tools/spec/*.rb', ".rb").should include('spec_helper')
-      DiskHelper.file_names('C:/Users/jf/Desktop/jesseweb/farm_tools/spec/*.rb', ".rb").should_not include ('spec_helper.rb')
+      DiskHelper.file_names('C:/Users/bucky/desktop/jesseweb/farm_tools/farm_tools/spec/*.rb', ".rb").should include('spec_helper')
+      DiskHelper.file_names('C:/Users/bucky/desktop/jesseweb/farm_tools/farm_tools/spec/*.rb', ".rb").should_not include ('spec_helper.rb')
     end
   end
 end

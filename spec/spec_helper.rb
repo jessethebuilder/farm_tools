@@ -22,7 +22,7 @@ RSpec.configure do |config|
   config.include FactoryGirl::Syntax::Methods
   config.include ActionView::Helpers::NumberHelper
 
-  config.require 'database_cleaner'
+  # config.require 'database_cleaner'
   config.before(:suite) do
     DatabaseCleaner.strategy = :transaction
     DatabaseCleaner.clean_with :deletion
