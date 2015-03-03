@@ -4,7 +4,6 @@ module FacebookHelper
     render :partial => 'facebook_helper/facebook_sdk', :locals => {:app_id => app_id}
   end
 
-
   def follow_on_facebook_button(related, width: '225px', colorscheme: 'light', layout: 'standard', show_faces: true)
     #layouts are "standard", "box_count", "button_count", "button"
     content_tag :div, '', :class => 'fb-follow', :href => "http://www.facebook.com/#{related}",
@@ -24,31 +23,6 @@ module FacebookHelper
     html.html_safe
   end
 
-
-
-  # def facebook_sdk(fb_id, turbolinks: false)
-  #   unless turbolinks
-  #     html = %Q|<meta propty="fb:app_id" content="#{fb_id}">|
-  #     html += '<div id="fb-root"></div>'
-  #     html += '<script>(function(d, s, id) {
-  #                       var js, fjs = d.getElementsByTagName(s)[0];
-  #                       if (d.getElementById(id)) return;
-  #                       js = d.createElement(s); js.id = id;
-  #                       js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId='
-  #     html += fb_id
-  #     html += '";
-  #               fjs.parentNode.insertBefore(js, fjs);
-  #               }(document, \'script\', \'facebook-jssdk\'));</script>'
-  #   else
-  #     html = javascript_include_tag 'facebook_sdk_for_turbolinks'
-  #   end
-  #
-  #
-  #   html.html_safe
-  # end
-
-
-
   def facebook_meta_tags(title, description, image_url, resource_type, site_name, url = request.url)
     html = %Q|<meta property="og:title" content="#{title}">|
     html += %Q|<meta property="og:url" content="#{url}">|
@@ -57,12 +31,6 @@ module FacebookHelper
     html += %Q|<meta property="og:site_name" content="#{site_name}">|
     html += %Q|<meta property="og:description" content="#{facebook_description(description)}">|
     html.html_safe
-    #html = content_tag :meta, '', :property => 'og:title', :content => title
-    #html += content_tag(:meta, '', :property => 'og:image', :content => image_url)
-    #%Q|<meta property="og:type" content="website">|.html_safe
-    #html += content_tag(:meta, '', :property => 'og:type', :content => 'website')
-    #html += content_tag(:meta, '', :property => 'og:url', :content => url)
-    #html.html_safe
   end
 
   def facebook_description(str)
@@ -70,6 +38,4 @@ module FacebookHelper
     index = /<br( \/)?>/ =~ str
     index ? str[0..(index - 1)] : str
   end
-
-
 end
