@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d09e1885-e9e5-46d3-afd4-3a8b55f6a20e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/facebook_helper/_facebook_sdk.html.erb" afterPath="$PROJECT_DIR$/app/views/facebook_helper/_facebook_sdk.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/facebook_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/facebook_helper.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -46,8 +45,8 @@
       <file leaf-file-name="facebook_helper.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/helpers/facebook_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.023842918" vertical-offset="0" max-vertical-offset="782">
-              <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
+            <state vertical-scroll-proportion="0.071528755" vertical-offset="0" max-vertical-offset="799">
+              <caret line="3" column="105" selection-start-line="3" selection-start-column="105" selection-end-line="3" selection-end-column="105" />
               <folding />
             </state>
           </provider>
@@ -586,12 +585,6 @@
       <option name="number" value="Default" />
       <updated>1385619019499</updated>
     </task>
-    <task id="LOCAL-00037" summary="SaveDraftArchiveDelete&#10;">
-      <created>1420173835628</created>
-      <option name="number" value="00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1420173835628</updated>
-    </task>
     <task id="LOCAL-00038" summary="SaveDraftArchiveDelete&#10;">
       <created>1420187767915</created>
       <option name="number" value="00038" />
@@ -880,7 +873,13 @@
       <option name="project" value="LOCAL" />
       <updated>1425421339304</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="Refactor Facebook Helpers">
+      <created>1425422616883</created>
+      <option name="number" value="00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1425422616883</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1334,8 +1333,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/facebook_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.023842918" vertical-offset="0" max-vertical-offset="782">
-          <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
+        <state vertical-scroll-proportion="0.071528755" vertical-offset="0" max-vertical-offset="799">
+          <caret line="3" column="105" selection-start-line="3" selection-start-column="105" selection-end-line="3" selection-end-column="105" />
           <folding />
         </state>
       </provider>
