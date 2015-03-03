@@ -1,6 +1,9 @@
 <div id="fb-root"></div>
 
 <script>
+  //this script relies on the existance of a function named facebookLoginStatusChangeCallback(response) that expects
+  //a Facebook login response object. This callback can handle the object any way you need it to.
+
   window.fbAsyncInit = function() {
     FB.init({
       appId      : '<%= app_id %>',
@@ -10,7 +13,7 @@
     });
 
     FB.getLoginStatus(function(response) {
-      statusChangeCallback(response);
+      facebookLoginStatusChangeCallback(response);
     });
   };
 
@@ -22,10 +25,9 @@
   fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));
 
-
   function facebookLoginStatus() {
     FB.getLoginStatus(function(response) {
-      statusChangeCallback(response);
+      facebookLoginStatusChangeCallback(response);
     });
   }
 </script>
