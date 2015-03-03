@@ -25,7 +25,8 @@
   fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));
 
-  function facebookLoginStatus() {
+  //facebookLoginStatus() is the function that should be called from a login button.
+  function facebookLogin() {
     FB.getLoginStatus(function(response) {
       facebookLoginStatusChangeCallback(response);
     });
