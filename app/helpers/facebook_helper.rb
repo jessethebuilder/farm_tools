@@ -12,13 +12,9 @@ module FacebookHelper
                        'data-show-faces' => show_faces, 'data-share' => share
   end
 
-  def facebook_comments(href, width: 475, numposts: 10, colorscheme: 'light', include_script: false, fb_id: nil, include_root: true)
+  def facebook_comments(href, width: 475, numposts: 10, colorscheme: 'light')
     html = content_tag :div, '', :class => 'fb-comments', 'data-href' => href, 'data-width' => width,
                        'data-numposts' => numposts, 'data-colorscheme' => colorscheme
-    if include_script
-      raise ArgumentError, 'You must specify an :app_id if you want to include the script' if fb_id.nil?
-      html += facebook_comments_script(fb_id, :include_root => include_root)
-    end
     html.html_safe
   end
 
