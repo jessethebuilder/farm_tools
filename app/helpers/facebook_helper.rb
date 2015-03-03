@@ -1,4 +1,10 @@
 module FacebookHelper
+  def facebook_sdk(app_id)
+    #this must be included to use any of these functions. Place just after opening <body> tag.
+    render :partial => 'facebook_helper/facebook_sdk', :locals => {:app_id => app_id}
+  end
+
+
   def follow_on_facebook_button(related, width: '225px', colorscheme: 'light', layout: 'standard', show_faces: true)
     #layouts are "standard", "box_count", "button_count", "button"
     content_tag :div, '', :class => 'fb-follow', :href => "http://www.facebook.com/#{related}",
@@ -18,9 +24,6 @@ module FacebookHelper
     html.html_safe
   end
 
-  def facebook_sdk(app_id)
-    render :partial => 'facebook_helper/facebook_sdk', :locals => {:app_id => app_id}
-  end
 
 
   # def facebook_sdk(fb_id, turbolinks: false)
