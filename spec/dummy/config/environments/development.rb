@@ -36,4 +36,7 @@ Dummy::Application.configure do
   config.assets.debug = true
 
   config.eager_load = false
+
+  OpenSSL::SSL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE
 end
+

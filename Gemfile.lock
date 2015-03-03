@@ -1,8 +1,8 @@
 PATH
   remote: .
   specs:
-    farm_tools (0.0.2)
-      koala
+    farm_tools (0.0.3)
+      koala (~> 1.11.0rc)
 
 GEM
   remote: https://rubygems.org/

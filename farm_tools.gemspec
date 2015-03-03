@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   # s.add_dependency "jquery-rails"
 
   s.add_development_dependency "sqlite3"
-  s.add_dependency "koala"
+  s.add_dependency "koala", "~> 1.11.0rc"
 
   # s.add_development_dependency 'rspec-rails'
   # s.add_development_dependency 'capybara'
