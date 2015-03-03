@@ -37,7 +37,7 @@ module FacebookHelper
                 fjs.parentNode.insertBefore(js, fjs);
                 }(document, \'script\', \'facebook-jssdk\'));</script>'
     else
-      html = javascript_include_tag 'vendor/facebook_sdk_for_turbolinks'
+      html = javascript_include_tag 'facebook_sdk_for_turbolinks'
     end
 
 
