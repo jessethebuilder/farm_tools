@@ -3,7 +3,6 @@
 //= require behaviors
 //= require quick_options
 //= require bootstrap_scripts
-////= require facebook_sdk_for_turbolinks
 
 //Toolbox ---------------------------------------------
 function splitPath(path){
