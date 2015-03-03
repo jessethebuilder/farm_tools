@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d09e1885-e9e5-46d3-afd4-3a8b55f6a20e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/facebook_helper/_facebook_sdk.html.erb" afterPath="$PROJECT_DIR$/app/views/facebook_helper/_facebook_sdk.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/facebook_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/facebook_helper.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="farm_tools.iws" />
@@ -42,21 +43,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="facebook_helper.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="facebook_helper.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/helpers/facebook_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.023842918" vertical-offset="0" max-vertical-offset="782">
+              <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_facebook_sdk.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_facebook_sdk.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/facebook_helper/_facebook_sdk.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6928675" vertical-offset="0" max-vertical-offset="687">
-              <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+            <state vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="714">
+              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -99,8 +100,8 @@
         <option value="$PROJECT_DIR$/spec/dummy/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/lib/farm_tools/facebook_farm.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/farm_tools.js" />
-        <option value="$PROJECT_DIR$/app/helpers/facebook_helper.rb" />
         <option value="$PROJECT_DIR$/app/views/facebook_helper/_facebook_sdk.html.erb" />
+        <option value="$PROJECT_DIR$/app/helpers/facebook_helper.rb" />
       </list>
     </option>
   </component>
@@ -585,12 +586,6 @@
       <option name="number" value="Default" />
       <updated>1385619019499</updated>
     </task>
-    <task id="LOCAL-00036" summary="SaveDraftArchiveDelete">
-      <created>1420173155039</created>
-      <option name="number" value="00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1420173155039</updated>
-    </task>
     <task id="LOCAL-00037" summary="SaveDraftArchiveDelete&#10;">
       <created>1420173835628</created>
       <option name="number" value="00037" />
@@ -879,7 +874,13 @@
       <option name="project" value="LOCAL" />
       <updated>1425420911670</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="Refactor Facebook Helpers">
+      <created>1425421339304</created>
+      <option name="number" value="00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1425421339304</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1323,18 +1324,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/facebook_helper.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/facebook_helper/_facebook_sdk.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="714">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/facebook_helper/_facebook_sdk.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/helpers/facebook_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6928675" vertical-offset="0" max-vertical-offset="687">
-          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.023842918" vertical-offset="0" max-vertical-offset="782">
+          <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
           <folding />
         </state>
       </provider>

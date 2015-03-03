@@ -12,9 +12,12 @@
       version    : 'v2.2'
     });
 
-    FB.getLoginStatus(function(response) {
-      facebookLoginStatusChangeCallback(response);
-    });
+    <% if use_authentication -%>
+    //Check for the login status of the user. Not necessary where not login scheme is specified
+      FB.getLoginStatus(function(response) {
+        facebookLoginStatusChangeCallback(response);
+      });
+    <% end -%>
   };
 
   (function(d, s, id) {

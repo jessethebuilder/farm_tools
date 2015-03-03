@@ -1,7 +1,7 @@
 module FacebookHelper
-  def facebook_sdk(app_id)
+  def facebook_sdk(app_id, use_authentication: true)
     #this must be included to use any of these functions. Place just after opening <body> tag.
-    render :partial => 'facebook_helper/facebook_sdk', :locals => {:app_id => app_id}
+    render :partial => 'facebook_helper/facebook_sdk', :locals => {:app_id => app_id, :use_authentication => use_authentication}
   end
 
   def follow_on_facebook_button(related, width: '225px', colorscheme: 'light', layout: 'standard', show_faces: true)
