@@ -22,27 +22,31 @@ module FacebookHelper
     html.html_safe
   end
 
-
-  def facebook_sdk(fb_id, turbolinks: false)
-    unless turbolinks
-      html = %Q|<meta propty="fb:app_id" content="#{fb_id}">|
-      html += '<div id="fb-root"></div>'
-      html += '<script>(function(d, s, id) {
-                        var js, fjs = d.getElementsByTagName(s)[0];
-                        if (d.getElementById(id)) return;
-                        js = d.createElement(s); js.id = id;
-                        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId='
-      html += fb_id
-      html += '";
-                fjs.parentNode.insertBefore(js, fjs);
-                }(document, \'script\', \'facebook-jssdk\'));</script>'
-    else
-      html = javascript_include_tag 'facebook_sdk_for_turbolinks'
-    end
-
-
-    html.html_safe
+  def facebook_sdk(app_id)
+    render :partial => 'facebook_helper/facebook_sdk', :locals => {:app_id => app_id}
   end
+
+
+  # def facebook_sdk(fb_id, turbolinks: false)
+  #   unless turbolinks
+  #     html = %Q|<meta propty="fb:app_id" content="#{fb_id}">|
+  #     html += '<div id="fb-root"></div>'
+  #     html += '<script>(function(d, s, id) {
+  #                       var js, fjs = d.getElementsByTagName(s)[0];
+  #                       if (d.getElementById(id)) return;
+  #                       js = d.createElement(s); js.id = id;
+  #                       js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId='
+  #     html += fb_id
+  #     html += '";
+  #               fjs.parentNode.insertBefore(js, fjs);
+  #               }(document, \'script\', \'facebook-jssdk\'));</script>'
+  #   else
+  #     html = javascript_include_tag 'facebook_sdk_for_turbolinks'
+  #   end
+  #
+  #
+  #   html.html_safe
+  # end
 
 
 
