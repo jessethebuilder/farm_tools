@@ -24,16 +24,10 @@ class SocialNetworkingProfile < ActiveRecord::Base
   end
 
   def tumblr_url=(val)
-
   end
 
   def tumblr_url
-
-
   end
 
   private
-
-
-
 end
