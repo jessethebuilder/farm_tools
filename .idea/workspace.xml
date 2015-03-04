@@ -46,8 +46,8 @@
       <file leaf-file-name="address.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/address.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.66619915" vertical-offset="18" max-vertical-offset="731">
-              <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.76297337" vertical-offset="0" max-vertical-offset="713">
+              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -648,12 +648,6 @@
       <option name="number" value="Default" />
       <updated>1385619019499</updated>
     </task>
-    <task id="LOCAL-00041" summary="SaveDraftArchiveDelete&#10;">
-      <created>1420248256669</created>
-      <option name="number" value="00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1420248256669</updated>
-    </task>
     <task id="LOCAL-00042" summary="Rest Helper">
       <created>1420433952511</created>
       <option name="number" value="00042" />
@@ -942,7 +936,13 @@
       <option name="project" value="LOCAL" />
       <updated>1425508985700</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="Refactor Facebook Helpers">
+      <created>1425509491700</created>
+      <option name="number" value="00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1425509491700</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1405,8 +1405,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/address.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66619915" vertical-offset="18" max-vertical-offset="731">
-          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.76297337" vertical-offset="0" max-vertical-offset="713">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
           <folding />
         </state>
       </provider>

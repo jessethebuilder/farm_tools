@@ -31,8 +31,4 @@ class Address < ActiveRecord::Base
     url += self.to_s.parameterize
     url
   end
-
-  def Address.x
-    self.new :street => '4218 Mt. Angeles Rd', :city => 'Port Angeles', :state => 'wa'
-  end
 end
