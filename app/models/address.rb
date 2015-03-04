@@ -27,7 +27,7 @@ class Address < ActiveRecord::Base
     url = "https://www.google.com/maps/embed/v1/place?key="
     url += api_key
     url += "&q="
-    url += "#{prefix}, " if prefix
+    url += "#{prefix},+" if prefix
     url += self.to_s.parameterize
     url
   end
