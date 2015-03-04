@@ -2,6 +2,7 @@ source "https://rubygems.org"
 
 gemspec
 
+gem 'geocoder'
 gem 'rails', '4.2'
 gem "jquery-rails"
 # gem 'rspec'

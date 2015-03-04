@@ -2,6 +2,7 @@ PATH
   remote: .
   specs:
     farm_tools (0.0.3)
+      geocoder
       koala (~> 1.11.0rc)
 
 GEM
@@ -71,6 +72,7 @@ GEM
     ffi (1.9.6-x64-mingw32)
     ffi (1.9.6-x86-mingw32)
     formatador (0.2.5)
+    geocoder (1.2.7)
     globalid (0.3.3)
       activesupport (>= 4.1.0)
     guard (2.12.4)
@@ -240,6 +242,7 @@ DEPENDENCIES
   factory_girl_rails
   faker
   farm_tools!
+  geocoder
   guard-rspec
   jquery-rails
   launchy (~> 2.3.0)
