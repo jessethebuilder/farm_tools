@@ -33,6 +33,10 @@ class SocialNetworkingProfile < ActiveRecord::Base
     twitter_id ? "https://www.twitter.com/#{twitter_id}" : nil
   end
 
+  def twitter_icon(image_path, use_text_label: false)
+    social_networking_icon('twitter', image_path, :use_text_label => use_text_label)
+  end
+
   def tumblr_url=(val)
   end
 
