@@ -1,8 +1,8 @@
 class ContactInfo < ActiveRecord::Base
   belongs_to :has_contact_info, :polymorphic => true
 
-  has_one :address, as: :has_address, :dependent => :delete
-  has_one :social_networking_profile, as: :has_social_networking, :dependent => :delete
+  has_one :address, as: :has_address, :dependent => :destory
+  has_one :social_networking_profile, as: :has_social_networking, :dependent => :destroy
 
   after_initialize{ |r| r.set_up_contact_info }
 
