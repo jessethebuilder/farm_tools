@@ -38,7 +38,7 @@ class SocialNetworkingProfile < ActiveRecord::Base
   end
 
   def pinterest_url
-    pinterest_id ? "https//www.pinterest.com/#{pinterest_id}" : nil
+    pinterest_id ? "https://www.pinterest.com/#{pinterest_id}" : nil
   end
 
   def pinterest_icon(image_path, use_text_label: false)
@@ -46,9 +46,16 @@ class SocialNetworkingProfile < ActiveRecord::Base
   end
 
   def tumblr_url=(val)
+    val =~ /https?:\/\/([^.]+)\.tumblr\.com/
+    write_attribute(:tumbr_id, $1)
   end
 
   def tumblr_url
+    tumblr_id ? "http://#{tumblr_id}.tumblr.com" : nil
+  end
+
+  def tumblr_icon(image_path, use_text_label: false)
+    social_networking_icon('tumblr', image_path, :use_text_label => use_text_label)
   end
 
   private
