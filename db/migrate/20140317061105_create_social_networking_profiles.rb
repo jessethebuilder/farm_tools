@@ -13,7 +13,7 @@ class CreateSocialNetworkingProfiles < ActiveRecord::Migration
       t.string :has_social_networking_id
       t.string :has_social_networking_type
 
-      t.string :tumbr_id
+      t.string :tumblr_id
       t.string :google_plus_id
       t.string :pinterest_id
       t.string :instagram_id

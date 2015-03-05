@@ -13,7 +13,7 @@
 
 ActiveRecord::Schema.define(version: 20150218022340) do
 
-  create_table "addresses", force: true do |t|
+  create_table "addresses", force: :cascade do |t|
     t.string   "label"
     t.string   "street"
     t.string   "street2"
@@ -31,7 +31,7 @@ ActiveRecord::Schema.define(version: 20150218022340) do
     t.datetime "updated_at"
   end
 
-  create_table "contact_infos", force: true do |t|
+  create_table "contact_infos", force: :cascade do |t|
     t.string "phone"
     t.string "phone2"
     t.string "phone3"
@@ -40,19 +40,19 @@ ActiveRecord::Schema.define(version: 20150218022340) do
     t.string "website_url"
   end
 
-  create_table "farm_slugs_objects", force: true do |t|
+  create_table "farm_slugs_objects", force: :cascade do |t|
     t.string "name"
     t.string "slug"
   end
 
-  create_table "gens", force: true do |t|
+  create_table "gens", force: :cascade do |t|
     t.text     "fake_array"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "an_attr"
   end
 
-  create_table "social_networking_profiles", force: true do |t|
+  create_table "social_networking_profiles", force: :cascade do |t|
     t.string   "facebook_app_id"
     t.string   "facebook_app_secret"
     t.string   "facebook_id"
@@ -68,14 +68,14 @@ ActiveRecord::Schema.define(version: 20150218022340) do
     t.string   "instagram_id"
   end
 
-  create_table "test_companies", force: true do |t|
+  create_table "test_companies", force: :cascade do |t|
     t.string   "name"
     t.integer  "test_model_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  create_table "test_models", force: true do |t|
+  create_table "test_models", force: :cascade do |t|
     t.string   "string"
     t.string   "string2"
     t.datetime "created_at"

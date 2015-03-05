@@ -47,7 +47,7 @@ class SocialNetworkingProfile < ActiveRecord::Base
 
   def tumblr_url=(val)
     val =~ /https?:\/\/([^.]+)\.tumblr\.com/
-    write_attribute(:tumbr_id, $1)
+    write_attribute(:tumblr_id, $1)
   end
 
   def tumblr_url
