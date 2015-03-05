@@ -13,6 +13,16 @@ class SocialNetworkingProfile < ActiveRecord::Base
     facebook_id ? "https://www.facebook.com/#{facebook_id}" : nil
   end
 
+  def facebook_icon(image_url, use_text_label: false)
+    # html = %Q|<a href="#{facebook_url}" target="_blank">|
+    # html += %Q|<img src="#{image_url}" alt="Facebook">|
+    # html += " Facebook" if use_text_label
+    # html += '</a>'
+    # html.html_safe
+
+    social_networking_icon('facebook', image_url, :use_text_label => use_text_label)
+  end
+
   def twitter_url=(val)
     val =~ /https?:\/\/www\.twitter\.com\/([^?^\/]+)/
     #raise ArgumentError, "#{val} is not recognized as a valid Twitter url" if $~.nil?
@@ -30,4 +40,12 @@ class SocialNetworkingProfile < ActiveRecord::Base
   end
 
   private
+
+  def social_networking_icon(network, image_url, use_text_label: false)
+    html = %Q|<a href="#{eval("#{network.downcase}_url")}" target="_blank">|
+    html += %Q|<img src="#{image_url}" alt="#{network.titlecase}">|
+    html += network.titlecase if use_text_label
+    html += '</a>'
+    html.html_safe
+  end
 end
