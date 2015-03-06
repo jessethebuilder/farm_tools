@@ -1,4 +1,5 @@
 //= require vendor/enquire
+//= require bootsy
 //= require core
 //= require behaviors
 //= require quick_options
