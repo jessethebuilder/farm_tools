@@ -10,6 +10,8 @@ require 'farm_tools/save_draft_archive_delete'
 require 'farm_tools/facebook_farm'
 
 module FarmTools
+  include HtmlTools
+  include Parts
 end
 
 

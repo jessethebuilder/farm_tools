@@ -1,3 +1,8 @@
+# module ApplicationHelper
+#   include HtmlTools
+#   include Parts
+# end
+
 class ActiveRecord::Base
   def self.group_records(records, attr, count: 'all')
     all_hash = records.group_by{ |r| r.send(attr) }
