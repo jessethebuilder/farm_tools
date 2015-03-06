@@ -1,4 +1,4 @@
-module Parts
+module HtmlParts
   def quick_options(*options)
     html = initiate_quick_options
     #html += '<div class="row">'

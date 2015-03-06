@@ -8,10 +8,12 @@ require 'farm_tools/farm_slugs'
 require 'farm_tools/disk_helper'
 require 'farm_tools/save_draft_archive_delete'
 require 'farm_tools/facebook_farm'
+require 'farm_tools/html_parts'
+require 'farm_tools/html_tools'
 
 module FarmTools
   include HtmlTools
-  include Parts
+  include HtmlParts
 end
 
 

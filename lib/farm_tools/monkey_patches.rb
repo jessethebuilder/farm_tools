@@ -1,6 +1,6 @@
 # module ApplicationHelper
 #   include HtmlTools
-#   include Parts
+#   include HtmlParts
 # end
 
 class ActiveRecord::Base
