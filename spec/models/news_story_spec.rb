@@ -14,7 +14,7 @@ RSpec.describe NewsStory, :type => :model do
   end
 
   describe 'Associations' do
-    it{ should belong_to(:author).class_name('User') }
+    # it{ should belong_to(:author).class_name('User') }
   end
 
   describe 'Idioms' do

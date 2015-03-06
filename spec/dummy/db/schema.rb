@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150306091839) do
+ActiveRecord::Schema.define(version: 20150218022340) do
 
   create_table "addresses", force: :cascade do |t|
     t.string   "label"
@@ -27,20 +27,6 @@ ActiveRecord::Schema.define(version: 20150306091839) do
     t.float    "longitude"
     t.string   "has_address_type"
     t.integer  "has_address_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "bootsy_image_galleries", force: :cascade do |t|
-    t.integer  "bootsy_resource_id"
-    t.string   "bootsy_resource_type"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "bootsy_images", force: :cascade do |t|
-    t.string   "image_file"
-    t.integer  "image_gallery_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -64,19 +50,6 @@ ActiveRecord::Schema.define(version: 20150306091839) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "an_attr"
-  end
-
-  create_table "news_stories", force: :cascade do |t|
-    t.string   "title"
-    t.text     "content"
-    t.boolean  "published",                default: true
-    t.boolean  "archived",                 default: true
-    t.string   "main_news_story_image"
-    t.string   "writes_news_stories_type"
-    t.string   "writes_news_stories_id"
-    t.datetime "created_at",                              null: false
-    t.datetime "updated_at",                              null: false
-    t.string   "slug"
   end
 
   create_table "social_networking_profiles", force: :cascade do |t|
