@@ -23,10 +23,10 @@ class Address < ActiveRecord::Base
   # <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBQmQELAdPqdohQD_hJUdpti6zbfTnVc2s&q=denver-relief"
   # width="100%" height="300px" frameborder="0" style="padding-left:3%; padding-right:3%;"></iframe>
 
-  def google_embedded_map_url(api_key, prefix: nil)
+  def google_embedded_map_url(api_key, prefix: nil, maptype:'roadmap', zoom: 16)
     url = "https://www.google.com/maps/embed/v1/place?key="
     url += api_key
-    url += "&q="
+    url += "&maptype=#{maptype}&zoom=#{zoom}&q="
     url += "#{prefix},+" if prefix
     url += self.to_s.parameterize
     url
