@@ -3,11 +3,11 @@ class NewsStory < ActiveRecord::Base
   extend SaveDraftArchiveDelete
 
   save_draft_archive_delete
+
+  validates :title, :presence => true
   use_farm_slugs :id_method => :title
 
   belongs_to :writes_news_stories, :polymorphic => true
 
   mount_uploader :main_news_story_image, MainNewsStoryImageUploader, :dependent => :destroy
-
-  validates :title, :presence => true
 end

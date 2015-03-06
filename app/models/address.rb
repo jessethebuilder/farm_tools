@@ -31,4 +31,13 @@ class Address < ActiveRecord::Base
     url += self.to_s.parameterize
     url
   end
+
+  def google_embedded_directions_from_my_location_url(api_key, prefix: nil)
+    url = "https://www.google.com/maps/embed/v1/directions?key="
+    url += api_key
+    url += "&origin=my+location&destination="
+    url += "#{prefix},+" if prefix
+    url += self.to_s.parameterize
+    url
+  end
 end
