@@ -12,9 +12,9 @@ class NewsStoriesController < ApplicationController
     respond_with(@news_stories)
   end
 
-  def show
-    respond_with(@news_story)
-  end
+  # def show
+  #   respond_with(@news_story)
+  # end
 
   def new
     @news_story = NewsStory.new
