@@ -52,3 +52,7 @@ function hideOnClickAndShow(click_selector, show_selector, hide_selector){
     $(show_selector).css('display', 'block');
   });
 }
+
+function rollThisUp(selector, duration){
+  $(selector).slideUp(duration);
+}
