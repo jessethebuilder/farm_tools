@@ -1,4 +1,4 @@
-require 'rails_helper'
+require 'spec_helper'
 
 RSpec.describe NewsStory, :type => :model do
   let(:story){ build :news_story }

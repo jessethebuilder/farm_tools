@@ -22,6 +22,7 @@ Gem::Specification.new do |s|
   s.add_dependency "koala", "~> 1.11.0rc"
   s.add_dependency "geocoder"
   s.add_dependency "bootsy"
+  s.add_development_dependency "bootsy"
   s.add_dependency "carrierwave"
   s.add_dependency "mini_magick"
 

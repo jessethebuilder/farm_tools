@@ -15,7 +15,6 @@ FactoryGirl.define do
 
   factory :news_story do
     title Faker::Company.catch_phrase.titlecase
-    association :author, :factory => :staff_plus
 
     factory :published do
       published true
