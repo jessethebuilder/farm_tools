@@ -12,4 +12,21 @@ FactoryGirl.define do
   factory :farm_slugs_object do
     name Faker::Name.name
   end
+
+  factory :news_story do
+    title Faker::Company.catch_phrase.titlecase
+    association :author, :factory => :staff_plus
+
+    factory :published do
+      published true
+    end
+
+    factory :draft do
+    end
+
+    factory :archive do
+      archived true
+    end
+  end
+
 end

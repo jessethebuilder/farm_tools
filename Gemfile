@@ -8,6 +8,7 @@ gem "jquery-rails"
 # gem 'rspec'
 gem 'activesupport'
 
+
 group :test, :development do
   gem 'faker'
   gem 'rspec-rails'
@@ -24,6 +25,9 @@ group :test do
   gem 'shoulda'
   gem 'launchy', '~> 2.3.0'
   #gem 'webrat'
+
+  gem 'bootsy'
+
 end
 
 gem 'tzinfo-data'

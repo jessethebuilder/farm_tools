@@ -251,6 +251,7 @@ PLATFORMS
 
 DEPENDENCIES
   activesupport
+  bootsy
   capybara
   database_cleaner (~> 1.0.0rc)
   factory_girl_rails
