@@ -3,7 +3,7 @@ class NewsStory < ActiveRecord::Base
   extend SaveDraftArchiveDelete
 
   save_draft_archive_delete
-  use_farm_slugs
+  use_farm_slugs :id_method => :title
 
   belongs_to :writes_news_stories, :polymorphic => true
 
