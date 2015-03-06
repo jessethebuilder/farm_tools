@@ -8,7 +8,7 @@ class NewsStoriesController < ApplicationController
   respond_to :html, :js
 
   def index
-    @news_stories = NewsStory.published.order('updated_at DESC').limit(6)
+    @news_stories = NewsStory.published.order('updated_at DESC')
     respond_with(@news_stories)
   end
 

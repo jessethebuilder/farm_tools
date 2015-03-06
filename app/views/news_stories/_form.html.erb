@@ -1,4 +1,3 @@
-
 <%= form_for(@news_story, :multipart => true) do |f| %>
   <%= error_explanation(@news_story) %>
 
@@ -29,6 +28,7 @@
     </div><!-- row -->
 
     <div class="row well">
+      <%#= f.file_field :main_news_story_image %>
       <%= image_select f, @news_story, :main_news_story_image %>
     </div><!-- row -->
 

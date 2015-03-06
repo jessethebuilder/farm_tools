@@ -19,7 +19,11 @@ class MainNewsStoryImageUploader < CarrierWave::Uploader::Base
   end
 
   version :large do
-    process :resize_to_fit => [600, 600]
+    process :resize_to_fit => [450, 450]
+  end
+
+  version :xlarge do
+    process :resize_to_fit => [650, 650]
   end
 
   def extension_white_list

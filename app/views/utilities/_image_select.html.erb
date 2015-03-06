@@ -1,7 +1,7 @@
 <div class="col-md-6">
   <div class="form-group">
     <%= f.label uploader, :class => 'control-label' %>
-    <%= f.file_field uploader, :multiple => true, :class => 'form-control' %>
+    <%= f.file_field uploader, :multiple => multiple, :class => 'form-control' %>
     <%= f.hidden_field "#{uploader}_cache".to_sym %>
   </div>
 
