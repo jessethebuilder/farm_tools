@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Farm Notes</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Has farm notes</th>
+      <th>Has farm notes type</th>
+      <th>Content</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @farm_notes.each do |farm_note| %>
+      <tr>
+        <td><%= farm_note.has_farm_notes_id %></td>
+        <td><%= farm_note.has_farm_notes_type %></td>
+        <td><%= farm_note.content %></td>
+        <td><%= link_to 'Show', farm_note %></td>
+        <td><%= link_to 'Edit', edit_farm_note_path(farm_note) %></td>
+        <td><%= link_to 'Destroy', farm_note, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Farm note', new_farm_note_path %>

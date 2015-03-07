@@ -3,10 +3,8 @@ PATH
   specs:
     farm_tools (0.0.3)
       bootsy
-      carrierwave
       geocoder
       koala (~> 1.11.0rc)
-      mini_magick
 
 GEM
   remote: https://rubygems.org/

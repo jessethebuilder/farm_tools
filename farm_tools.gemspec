@@ -23,8 +23,6 @@ Gem::Specification.new do |s|
   s.add_dependency "geocoder"
   s.add_dependency "bootsy"
   s.add_development_dependency "bootsy"
-  s.add_dependency "carrierwave"
-  s.add_dependency "mini_magick"
 
   # s.add_development_dependency 'rspec-rails'
   # s.add_development_dependency 'capybara'

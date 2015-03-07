@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Has farm notes:</strong>
+  <%= @farm_note.has_farm_notes_id %>
+</p>
+
+<p>
+  <strong>Has farm notes type:</strong>
+  <%= @farm_note.has_farm_notes_type %>
+</p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @farm_note.content %>
+</p>
+
+<%= link_to 'Edit', edit_farm_note_path(@farm_note) %> |
+<%= link_to 'Back', farm_notes_path %>
