@@ -30,7 +30,7 @@ class ActiveRecord::Base
     end
 
     after_create{ |r| r.update_slug }
-    after_validation{ |r| r.update_slug unless r.new_record? }
+    after_validation{ |r| r.update_slug if r.changes[id_method] && !r.new_record? }
   end
 
   private

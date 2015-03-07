@@ -38,8 +38,12 @@ describe 'FarmSlugs' do
       new_fso.slug.should == "#{fso.slug}_#{new_fso.id}"
     end
 
-
-
+    it 'should not append :id on update' do
+      fso.save
+      old_slug = fso.slug
+      fso.save
+      fso.slug.should == old_slug
+    end
 
     it 'should change :slug if :name gets changed' do
       fso.save
