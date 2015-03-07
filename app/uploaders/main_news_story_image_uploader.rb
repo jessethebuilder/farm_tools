@@ -15,7 +15,7 @@ class MainNewsStoryImageUploader < CarrierWave::Uploader::Base
   end
 
   version :small do
-    process :resize_to_fit => [250, 250]
+    process :resize_to_fit => [200, 200]
   end
 
   version :medium do
