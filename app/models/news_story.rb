@@ -4,7 +4,6 @@ class NewsStory < ActiveRecord::Base
 
   save_draft_archive_delete
 
-  validates :title, :presence => true
   use_farm_slugs :id_method => :title
 
   belongs_to :writes_news_stories, :polymorphic => true

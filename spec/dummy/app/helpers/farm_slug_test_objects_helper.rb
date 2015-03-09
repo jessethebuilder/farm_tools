@@ -1,0 +1,2 @@
+module FarmSlugTestObjectsHelper
+end

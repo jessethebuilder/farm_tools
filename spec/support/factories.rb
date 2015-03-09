@@ -28,4 +28,8 @@ FactoryGirl.define do
     end
   end
 
+  factory :farm_slug_test_object do
+    caption Faker::Company.bs
+  end
+
 end

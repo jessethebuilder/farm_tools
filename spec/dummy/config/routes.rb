@@ -1,4 +1,6 @@
 Dummy::Application.routes.draw do
+  resources :farm_slug_test_objects
+
   resources :test_companies
 
   resources :test_models

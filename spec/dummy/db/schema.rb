@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150307103243) do
+ActiveRecord::Schema.define(version: 20150309212431) do
 
   create_table "addresses", force: :cascade do |t|
     t.string   "label"
@@ -60,6 +60,13 @@ ActiveRecord::Schema.define(version: 20150307103243) do
     t.text     "content"
     t.datetime "created_at",          null: false
     t.datetime "updated_at",          null: false
+  end
+
+  create_table "farm_slug_test_objects", force: :cascade do |t|
+    t.string   "url_slug"
+    t.string   "caption"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "farm_slugs_objects", force: :cascade do |t|
