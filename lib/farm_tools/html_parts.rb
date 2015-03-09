@@ -22,9 +22,10 @@ module HtmlParts
               })</script>"
   end
 
-  def image_select(form_builder, object, uploader, version: :thumb, multiple: false)
-    render :partial => 'utilities/image_select.html.erb', :locals => {:f => form_builder, :object => object,
-                                                          :uploader => uploader, :version => version,
-                                                          :multiple => multiple}
+  def image_select(form_builder, image_attr, version: :thumb, alt_label: image_attr.to_s, multiple: false, accepts_remote_url: true)
+    render :partial => 'utilities/image_select.html.erb', :locals => {:f => form_builder,
+                                                          :image_attr => image_attr, :version => version,
+                                                          :multiple => multiple, :accepts_remote => accepts_remote_url,
+                                                          :alt_label => alt_label}
   end
 end

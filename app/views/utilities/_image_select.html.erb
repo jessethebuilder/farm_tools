@@ -1,18 +1,23 @@
-<div class="col-md-6">
-  <div class="form-group">
-    <%= f.label uploader, :class => 'control-label' %>
-    <%= f.file_field uploader, :multiple => multiple, :class => 'form-control' %>
-    <%= f.hidden_field "#{uploader}_cache".to_sym %>
+<div class="row">
+  <div class="col-md-6">
+    <div class="form-group">
+      <%= f.label alt_label, :class => 'control-label' %>
+      <%= f.file_field image_attr, :multiple => multiple, :class => 'form-control' %>
+      <%= f.hidden_field "#{image_attr}_cache".to_sym %>
+    </div>
+
+    <% if local_assigns[:accepts_remote] -%>
+      <div class="form-group">
+        <%= f.label "remote_#{image_attr.to_s}_url".to_sym, 'or image URL', :class => 'control-label' %>
+        <%= f.text_field "remote_#{image_attr.to_s}_url".to_sym, :class => 'form-control' %>
+      </div>
+    <% end -%>
   </div>
 
-  <div class="form-group">
-    <%= f.label "remote_#{uploader.to_s}_url".to_sym, 'or image URL', :class => 'control-label' %>
-    <%= f.text_field "remote_#{uploader.to_s}_url".to_sym, :class => 'form-control' %>
+  <div class="col-md-4 col-md-offset-2">
+    <% if f.object.send(image_attr).file %>
+      <%= image_tag f.object.send(image_attr).url(version) %>
+    <% end %>
   </div>
 </div>
 
-<div class="col-md-4 col-md-offset-2">
-  <% if object.send(uploader).file %>
-    <%= image_tag object.send(uploader).url(version) %>
-  <% end %>
-</div>
