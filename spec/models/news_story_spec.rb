@@ -70,14 +70,6 @@ RSpec.describe NewsStory, :type => :model do
         story.published.should == false
         story.archived.should == true
       end
-
-      specify 'If commit is set to draft, validations are skipped' do
-        story.commit = :draft
-        story.title = nil
-        story.save
-
-        story.id.should_not == nil
-      end
     end
 
     describe '#publication_status' do

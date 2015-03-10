@@ -12,7 +12,9 @@ module SaveDraftArchiveDelete
   # def save_draft_archive_delete
     #requires that record has column :archived and column :published. Both should default to false
 
-
+    
+    
+    
     klass.instance_eval do
       #these errors make trouble for testing todo
       # define_method(:published=) do |val|
@@ -23,28 +25,36 @@ module SaveDraftArchiveDelete
       #   raise ArgumentError, 'Do not set :archived directly. Use the :publish, :archive: and :draft methods to change these values'
       # end
 
-      skip_callback :validate, :commit => :draft
+      # skip_callback :validate, :commit => :draft
+      
+
 
       define_method(:publish) do
-        write_attribute(:published, true)
-        write_attribute(:archived, false)
+        if errors.blank?
+          update_attribute(:published, true)
+          update_attribute(:archived, false)
+        end
       end
 
       define_method(:archive) do
-        write_attribute(:published, false)
-        write_attribute(:archived, true)
+        if errors.blank?
+          update_attribute(:published, false)
+          update_attribute(:archived, true)
+        end
       end
 
       define_method(:draft) do
-        write_attribute(:published, false)
-        write_attribute(:archived, false)
+        if errors.blank?
+          update_attribute(:published, false)
+          update_attribute(:archived, false)
+        end
       end
 
       define_method(:commit=) do |val|
         unless [:publish, :draft, :archive].include?(val)
           raise ArgumentError, "#commit only accepts :publish, :draft, :archive, of which #{val} is none"
         end
-
+        # @commit
         self.send(val)
       end
 
@@ -56,6 +66,7 @@ module SaveDraftArchiveDelete
         end
         val
       end
+
     end
   end
 
@@ -77,17 +88,17 @@ module SaveDraftArchiveDelete
 end
 
 
-module SaveDraftArchiveDeleteControllerHelper
-  def publish?
-    params[:commit] == 'Publish'
-  end
-
-  def archive?
-    params[:commit] == 'Archive'
-  end
-
-  def publish_or_archive(record)
-    record.update_attribute(:published, publish?)
-    record.update_attribute(:archived, archive?)
-  end
-end
+# module SaveDraftArchiveDeleteControllerHelper
+#   def publish?
+#     params[:commit] == 'Publish'
+#   end
+#
+#   def archive?
+#     params[:commit] == 'Archive'
+#   end
+#
+#   def publish_or_archive(record)
+#     record.write_attribute(:published, publish?)
+#     record.write_attribute(:archived, archive?)
+#   end
+# end

@@ -18,6 +18,8 @@ FactoryGirl.define do
 
     factory :published do
       published true
+
+      # after_create
     end
 
     factory :draft do

@@ -1,5 +1,5 @@
 class NewsStoriesController < ApplicationController
-  include SaveDraftArchiveDeleteControllerHelper
+  # include SaveDraftArchiveDeleteControllerHelper
   # include HtmlTools
   # include HtmlParts
 
@@ -26,16 +26,21 @@ class NewsStoriesController < ApplicationController
 
   def create
     @news_story = NewsStory.new(news_story_params)
-    @news_story.commit = parse_commit
-
     @news_story.save
+
+      @news_story.commit = parse_commit
+
+
+    # @news_story.save
+
+
     respond_with(@news_story)
   end
 
   def update
-    @news_story.commit = parse_commit
 
     @news_story.update(news_story_params)
+    @news_story.commit = parse_commit
 
     respond_with(@news_story)
   end

@@ -33,6 +33,7 @@ RSpec.describe 'News Story Requests', :type => :feature do
 
     it 'should not save the story, or show it as published if there is a validation error' do
       click_button 'Publish'
+      #todo jfx
       page.should have_content "Title can't be blank"
       page.should_not have_content('Status: Published')
       page.should have_content('Status: Draft')

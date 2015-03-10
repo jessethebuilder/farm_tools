@@ -24,6 +24,7 @@ class ActiveRecord::Base
     extend FindForFarmSlugs
 
     validates id_method, :presence => true
+
     validate do
       #records cannot have simple integers for an id_method
       errors.add id_method, "can't be a simple integer" if send(id_method).to_i.to_s == send(id_method).to_s
