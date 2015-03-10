@@ -1,7 +1,7 @@
 class NewsStoriesController < ApplicationController
   include SaveDraftArchiveDeleteControllerHelper
-  include HtmlTools
-  include HtmlParts
+  # include HtmlTools
+  # include HtmlParts
 
   before_action :set_news_story, only: [:show, :edit, :update, :destroy]
 

@@ -30,7 +30,9 @@ class ActiveRecord::Base
     end
 
     after_create{ |r| r.update_slug }
-    after_validation{ |r| r.update_slug if r.changes[id_method] && !r.new_record? }
+    #update :slug_method if a record is saved that has had changed made to the :id_method,
+    #is NOT a new record, and if it passes validation
+    after_validation{ |r| r.update_slug if r.changes[id_method] && !r.new_record? && r.errors.empty? }
   end
 
   private
@@ -39,6 +41,11 @@ class ActiveRecord::Base
     instance_eval do
       define_method(:to_param) do
         self.send(slug_method)
+        # if id_param = self.send(slug_method)
+        #   id_param
+        # else
+        #   self.send(:id)
+        # end
       end
 
       define_method(:update_slug) do

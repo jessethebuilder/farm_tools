@@ -32,3 +32,5 @@ end
 
 gem 'tzinfo-data'
 
+gem 'responders', '~> 2.0'
+

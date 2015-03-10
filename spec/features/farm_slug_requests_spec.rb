@@ -27,6 +27,12 @@ describe 'Farm Slug Requests', :type => :feature do
       page.should have_content(test_name)
     end
 
+    it 'should list the new object on #index' do
+      manual_farm_slug_test_object_create(test_name)
+      visit '/farm_slug_test_objects'
+      page.should have_content(test_name)
+    end
+
     describe 'Validation Requests for new objects (unsaved)' do
       before(:each) do
         visit '/farm_slug_test_objects/new'
@@ -53,7 +59,7 @@ describe 'Farm Slug Requests', :type => :feature do
           page.should_not have_content("can't be blank;can't be blank")
         # end
       end
-    end
+    end #validation Requests for new
   end
 
   describe 'Editing an Existing Record' do
@@ -63,10 +69,14 @@ describe 'Farm Slug Requests', :type => :feature do
     describe 'Validation Errors while Editing' do
       it 'should return the user to the edit page if a validation error occurs' do
         path = "/farm_slug_test_objects/#{fsto.url_slug}"
-        visit path
+        visit "#{path}/edit"
         fill_in 'Caption', with: ''
         click_button 'Update'
+
         current_path.should == path
+        within('#error_explanation') do
+          page.should have_content("Caption can't be blank")
+        end
       end
     end
   end

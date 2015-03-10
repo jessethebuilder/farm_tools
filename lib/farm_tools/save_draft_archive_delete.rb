@@ -43,21 +43,25 @@ module SaveDraftArchiveDelete
   #  #r = r + archives if show_archives
   #  r.order(order)
   #end
-
-  def empty_query
-    where('published = true AND archived = true')
-  end
+  #
+  # def empty_query
+  #   where('published = true AND archived = true')
+  # end
 
   def published
     where(:published => true)
   end
 
   def drafts
-    where('published = false AND archived = false')
+    where('published = ? AND archived = ?', false, false)
   end
 
   def archives
     where(:archived => true)
+  end
+
+  def active
+    where(:archived => false)
   end
 end
 
