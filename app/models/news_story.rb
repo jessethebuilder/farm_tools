@@ -4,9 +4,8 @@ class NewsStory < ActiveRecord::Base
 
   belongs_to :writes_news_stories, :polymorphic => true
 
-  save_draft_archive_delete
+  # save_draft_archive_delete
   #todo move this to save_draft_archive_delete
-  skip_callback :validate, :commit => :draft
 
 
   use_farm_slugs :id_method => :title

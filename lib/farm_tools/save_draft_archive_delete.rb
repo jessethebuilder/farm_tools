@@ -8,29 +8,13 @@ module SaveDraftArchiveDelete
 
 
 
-  # self.extended do todo
-  def save_draft_archive_delete
+  def self.extended(klass)
+  # def save_draft_archive_delete
     #requires that record has column :archived and column :published. Both should default to false
 
 
-    instance_eval do
-      #modify published and archived setters
-      # define_method(:published=) do |value|
-      #   write_attribute(:published, value)
-      #   write_attribute(:archived, !value)
-        # write_attribute(:archived, false) if value
-        # write_attribute(:published, true) if value
-        # super(value)
-      # end
-
-      # define_method(:archived=) do |value|
-      #   write_attribute(:published, !value)
-        # write_attribute(:published, false) if value
-        # write_attribute(:archived, value)
-        # write_attribute(:archived, true) if value
-        # super(value)
-      # end
-      #
+    klass.instance_eval do
+      #these errors make trouble for testing todo
       # define_method(:published=) do |val|
       #   raise ArgumentError, 'Do not set :published directly. Use the :publish, :archive: and :draft methods to change these values'
       # end
@@ -38,6 +22,8 @@ module SaveDraftArchiveDelete
       # define_method(:archived=) do |val|
       #   raise ArgumentError, 'Do not set :archived directly. Use the :publish, :archive: and :draft methods to change these values'
       # end
+
+      skip_callback :validate, :commit => :draft
 
       define_method(:publish) do
         write_attribute(:published, true)

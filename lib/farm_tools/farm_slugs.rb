@@ -26,7 +26,11 @@ class ActiveRecord::Base
     validates id_method, :presence => true
     validate do
       #records cannot have simple integers for an id_method
-      errors.add :name, "can't be a simple integer" if send(id_method).to_i.to_s == send(id_method).to_s
+      errors.add id_method, "can't be a simple integer" if send(id_method).to_i.to_s == send(id_method).to_s
+
+      #reject if :id_method ends in "/edit" or "/edit/"
+      errors.add id_method, 'cannot end with the string "/edit" or "/edit/"' if send(id_method) =~ /\/edit\/?$/
+      errors.add id_method, 'cannot simply be called "new"' if send(id_method).to_s.downcase == 'new'
     end
 
     after_create{ |r| r.update_slug }

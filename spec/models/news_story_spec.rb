@@ -10,6 +10,23 @@ RSpec.describe NewsStory, :type => :model do
 
   describe 'Validations' do
     it{ should validate_presence_of :title }
+
+    it 'will not validate if title is "new" for obvious reasons. Farm Slugs' do
+      story.title = 'new'
+      story.valid?
+      story.errors.messages[:title].should include('cannot simply be called "new"')
+
+    end
+
+    it 'will not validate if the end of the title is "/edit"' do
+      story.title = 'something/edit'
+      story.valid?
+      story.errors.messages[:title].should include('cannot end with the string "/edit" or "/edit/"')
+
+      story.title = 'something+else/edit/'
+      story.valid?
+      story.errors.messages[:title].should include('cannot end with the string "/edit" or "/edit/"')
+    end
   end
 
   describe 'Associations' do
@@ -58,6 +75,7 @@ RSpec.describe NewsStory, :type => :model do
         story.commit = :draft
         story.title = nil
         story.save
+
         story.id.should_not == nil
       end
     end

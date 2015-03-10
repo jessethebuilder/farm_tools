@@ -2,6 +2,10 @@ require 'spec_helper'
 
 RSpec.describe 'News Story Requests', :type => :feature do
   #A lot of these specs test SaveDraftArchiveDelete requests as they are the NewsStory Model
+
+  #Many of these test requests related to the existing _form in news_stories/views in the Engine.
+  #If you use a different form, consider re-spec.
+
   let!(:ns){ create :news_story }
 
   describe 'Index' do
@@ -39,8 +43,10 @@ RSpec.describe 'News Story Requests', :type => :feature do
     specify 'Publish button should set :published to true and :archived to false' do
        visit "/news_stories/#{ns.id}/edit"
        click_button 'Publish'
-       ns.published.should == true
-       ns.archived.should == false
+
+       story = NewsStory.find(ns.id)
+       story.published.should == true
+       story.archived.should == false
      end
 
      specify 'Draft button should set :published to false and :archived to false' do

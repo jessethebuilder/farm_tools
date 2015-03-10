@@ -26,14 +26,14 @@ class NewsStoriesController < ApplicationController
 
   def create
     @news_story = NewsStory.new(news_story_params)
-    @news_story.commit = params[:commit].downcase.to_sym
+    @news_story.commit = parse_commit
 
     @news_story.save
     respond_with(@news_story)
   end
 
   def update
-    @news_story.commit = params[:commit].downcase.to_sym
+    @news_story.commit = parse_commit
 
     @news_story.update(news_story_params)
 
@@ -49,10 +49,21 @@ class NewsStoriesController < ApplicationController
   private
   def set_news_story
     # if p = params[:id]
-      @news_story = NewsStory.find(p)
+      @news_story = NewsStory.find(params[:id])
     # else
     #   @news_story = NewsStory.new
     # end
+  end
+
+  def parse_commit
+    case params[:commit]
+      when 'Save Draft'
+        :draft
+      when 'Publish'
+        :publish
+      when 'Archive'
+        :archive
+    end
   end
 
   def news_story_params
