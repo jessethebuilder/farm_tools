@@ -36,15 +36,12 @@ RSpec.describe 'News Story Requests', :type => :feature do
   end
 
   describe 'Edit' do
-
-     specify 'Publish button should set :published to true and :archived to false' do
+    specify 'Publish button should set :published to true and :archived to false' do
        visit "/news_stories/#{ns.id}/edit"
        click_button 'Publish'
        ns.published.should == true
        ns.archived.should == false
      end
-
-
 
      specify 'Draft button should set :published to false and :archived to false' do
        visit "/news_stories/#{ns.id}/edit"
@@ -73,7 +70,5 @@ RSpec.describe 'News Story Requests', :type => :feature do
      #
      #   ns.deleted?.should == true
      # end
-     #----------------end save_draft_archive_delete ----------------------------------------
-
   end #end Edit
 end

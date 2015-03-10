@@ -26,17 +26,17 @@ class NewsStoriesController < ApplicationController
 
   def create
     @news_story = NewsStory.new(news_story_params)
-
-    publish_or_archive(@news_story)
+    @news_story.commit = params[:commit].downcase.to_sym
 
     @news_story.save
     respond_with(@news_story)
   end
 
   def update
-    publish_or_archive(@news_story)
+    @news_story.commit = params[:commit].downcase.to_sym
 
     @news_story.update(news_story_params)
+
     respond_with(@news_story)
   end
 
@@ -48,15 +48,15 @@ class NewsStoriesController < ApplicationController
 
   private
   def set_news_story
-    if p = params[:id]
+    # if p = params[:id]
       @news_story = NewsStory.find(p)
-    else
-      @news_story = NewsStory.new
-    end
+    # else
+    #   @news_story = NewsStory.new
+    # end
   end
 
   def news_story_params
-    params.require(:news_story).permit(:title, :content, :published, :archived,
+    params.require(:news_story).permit(:title, :content,
                                        :bootsy_image_gallery_id,
                                        :main_news_story_image, :main_news_story_image_cache, :remote_main_news_story_image_url)
   end

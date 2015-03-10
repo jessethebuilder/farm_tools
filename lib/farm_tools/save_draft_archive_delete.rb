@@ -5,18 +5,61 @@
 
 module SaveDraftArchiveDelete
   #extend in model
+
+
+
+  # self.extended do todo
   def save_draft_archive_delete
     #requires that record has column :archived and column :published. Both should default to false
+
+
     instance_eval do
       #modify published and archived setters
-      define_method(:published=) do |value|
-        write_attribute(:archived, false) if value
-        super(value)
+      # define_method(:published=) do |value|
+      #   write_attribute(:published, value)
+      #   write_attribute(:archived, !value)
+        # write_attribute(:archived, false) if value
+        # write_attribute(:published, true) if value
+        # super(value)
+      # end
+
+      # define_method(:archived=) do |value|
+      #   write_attribute(:published, !value)
+        # write_attribute(:published, false) if value
+        # write_attribute(:archived, value)
+        # write_attribute(:archived, true) if value
+        # super(value)
+      # end
+      #
+      # define_method(:published=) do |val|
+      #   raise ArgumentError, 'Do not set :published directly. Use the :publish, :archive: and :draft methods to change these values'
+      # end
+      #
+      # define_method(:archived=) do |val|
+      #   raise ArgumentError, 'Do not set :archived directly. Use the :publish, :archive: and :draft methods to change these values'
+      # end
+
+      define_method(:publish) do
+        write_attribute(:published, true)
+        write_attribute(:archived, false)
       end
 
-      define_method(:archived=) do |value|
-        write_attribute(:published, false) if value
-        super(value)
+      define_method(:archive) do
+        write_attribute(:published, false)
+        write_attribute(:archived, true)
+      end
+
+      define_method(:draft) do
+        write_attribute(:published, false)
+        write_attribute(:archived, false)
+      end
+
+      define_method(:commit=) do |val|
+        unless [:publish, :draft, :archive].include?(val)
+          raise ArgumentError, "#commit only accepts :publish, :draft, :archive, of which #{val} is none"
+        end
+
+        self.send(val)
       end
 
       define_method(:publication_status) do
@@ -29,24 +72,6 @@ module SaveDraftArchiveDelete
       end
     end
   end
-
-  #def records(show_drafts: false, show_archives: false, hide_published: false, order: nil)
-  #  if hide_published
-  #    r = empty_query
-  #  else
-  #    r = published
-  #  end
-  #
-  #  r << drafts if show_drafts
-  #  r << archives if show_archives
-  #  #r = r + drafts if show_drafts
-  #  #r = r + archives if show_archives
-  #  r.order(order)
-  #end
-  #
-  # def empty_query
-  #   where('published = true AND archived = true')
-  # end
 
   def published
     where(:published => true)
@@ -67,8 +92,6 @@ end
 
 
 module SaveDraftArchiveDeleteControllerHelper
-  #include in controller
-
   def publish?
     params[:commit] == 'Publish'
   end
@@ -81,25 +104,4 @@ module SaveDraftArchiveDeleteControllerHelper
     record.update_attribute(:published, publish?)
     record.update_attribute(:archived, archive?)
   end
-  #
-
-
-
-  #def self.included(base)
-  #  /(.+)Controller\Z/ =~ base.name
-  #  class_name = $1.singularize.underscore
-  #  #base.class_eval do
-  #    define_method("set_#{class_name}".to_sym) do
-  #      if params[:id]
-  #        eval("@#{class_name} = find(params[:id])")
-  #      else
-  #        eval("@#{class_name} = new")
-  #      end
-  #    end
-  #  #end
-  #
-  #  #base.instance_eval do
-  #  #  end
-  #  ##end
-  #end
 end

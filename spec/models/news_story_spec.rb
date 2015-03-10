@@ -17,40 +17,71 @@ RSpec.describe NewsStory, :type => :model do
   end
 
   describe 'Idioms' do
-    specify 'If a record is saved with archived => true, published will be set to false' do
-      story.published = true
-      story.archived = true
-      story.published.should == false
-    end
+    #todo
+    # specify 'error is raised if published is set directly' do
+    #   expect{story.published = true}.to raise_error
+    # end
+    #
+    # specify 'error is raised if archived is set directly' do
+    #   expect{story.archived = true}.to raise_error
+    # end
 
-    specify 'If a record is saved with published => true, archived will be set to false' do
-      story.archived = true
-      story.published = true
-      story.archived.should == false
-    end
-  end
+  end #Idioms
 
   describe 'Methods' do
+    describe '#commit=(val)' do
+      specify 'if val = "Publish," Record should save as published' do
+        story.commit = :publish
+        story.save
+        story.publication_status.should == 'published'
+        story.published.should == true
+        story.archived.should == false
+      end
+
+      specify "if val == :draft, record should save as draft" do
+        story.commit = :draft
+        story.save
+        story.publication_status.should == 'draft'
+        story.published.should == false
+        story.archived.should == false
+      end
+
+      specify 'if val == :archive, record should save as archive' do
+        story.commit = :archive
+        story.save
+        story.publication_status.should == 'archived'
+        story.published.should == false
+        story.archived.should == true
+      end
+
+      specify 'If commit is set to draft, validations are skipped' do
+        story.commit = :draft
+        story.title = nil
+        story.save
+        story.id.should_not == nil
+      end
+    end
+
     describe '#publication_status' do
       specify 'if :published == true, publication_status == published' do
-        story.published = true
+        story.send(:write_attribute, :published, true)
         story.publication_status.should == 'published'
       end
 
       specify 'if :published == false AND :archived == false, publication_status should be "draft"' do
-        story.published = false
-        story.archived = false
+        story.send(:write_attribute, :published, false)
+        story.send(:write_attribute, :archived, false)
         story.publication_status.should == 'draft'
       end
 
       specify 'if :archived == true, publication_status should be "archived"' do
-        story.archived = true
+        story.send(:write_attribute, :archived, true)
         story.publication_status.should == 'archived'
       end
 
       specify 'a newly created object should be of type draft' do
-        ns = NewsStory.new
-        ns.publication_status.should == 'draft'
+        story = NewsStory.new
+        story.publication_status.should == 'draft'
       end
     end
   end
