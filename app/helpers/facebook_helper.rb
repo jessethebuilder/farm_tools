@@ -18,7 +18,7 @@ module FacebookHelper
                        'data-show-faces' => show_faces, 'data-share' => share
   end
 
-  def facebook_comments(href, width: 475, numposts: 10, colorscheme: 'light')
+  def facebook_comments(href, width: '100%', numposts: 10, colorscheme: 'light')
     html = content_tag :div, '', :class => 'fb-comments', 'data-href' => href, 'data-width' => width,
                        'data-numposts' => numposts, 'data-colorscheme' => colorscheme
     html.html_safe
