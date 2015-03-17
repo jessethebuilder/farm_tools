@@ -5,6 +5,10 @@ FactoryGirl.define do
 
   end
 
+  factory :address do
+
+  end
+
   factory :social_networking_profile do
 
   end

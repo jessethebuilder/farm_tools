@@ -2,7 +2,14 @@ class Address < ActiveRecord::Base
   belongs_to :has_address, :polymorphic => true
 
   geocoded_by :to_s
-  reverse_geocoded_by :latitude, :longitude
+
+  reverse_geocoded_by :latitude, :longitude do |address, results|
+    if geo = results.first
+      address.city = geo.city
+      address.state = geo.state
+      address.zip = geo.postal_code
+    end
+  end
 
   def to_s
     s = ''
