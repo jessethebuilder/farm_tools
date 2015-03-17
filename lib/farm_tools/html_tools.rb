@@ -1,6 +1,6 @@
 module HtmlTools
   #untested
-  def for_select(collection, id_method, value_method, selected_ids = nil)
+  def for_select(collection, id_method, value_method, selected_items: nil)
     options = collection.each.collect{ |item| [item.send(id_method), item.send(value_method)] }
     if selected_ids
       options_for_select(options, selected_ids)
@@ -9,13 +9,18 @@ module HtmlTools
     end
   end
 
-  def array_for_select(arr, selected_items = nil)
+  def array_for_select(arr, selected_items: nil)
     options = arr.each.collect{ |i| [i.to_s.titlecase, i] }
     if selected_items
       options_for_select(options, selected_items)
     else
       options_for_select(options)
     end
+  end
+
+  def array_of_hashes_for_select(array, id_key, value_key, selected_items: nil)
+    options = array.collect{ |hash| [hash[id_key], hash[value_key]] }
+    options_for_select(options, selected_items)
   end
 
   def remove_query_string(url)
