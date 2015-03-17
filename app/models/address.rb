@@ -4,11 +4,7 @@ class Address < ActiveRecord::Base
   geocoded_by :to_s
 
   reverse_geocoded_by :latitude, :longitude do |address, results|
-    if geo = results.first
-      address.city = geo.city
-      address.state = geo.state
-      address.zip = geo.postal_code
-    end
+    parse_reverse_geocode_results(address, results)
   end
 
   def to_s
@@ -27,9 +23,6 @@ class Address < ActiveRecord::Base
     html.html_safe
   end
 
-  # <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBQmQELAdPqdohQD_hJUdpti6zbfTnVc2s&q=denver-relief"
-  # width="100%" height="300px" frameborder="0" style="padding-left:3%; padding-right:3%;"></iframe>
-
   def google_embedded_map_url(api_key, prefix: nil, maptype:'roadmap', zoom: 16)
     url = "https://www.google.com/maps/embed/v1/place?key="
     url += api_key
@@ -46,5 +39,23 @@ class Address < ActiveRecord::Base
     url += "#{prefix},+" if prefix
     url += self.to_s.parameterize
     url
+  end
+
+  def self.geocode_zip(zip)
+    a = new zip: zip
+    a.geocode
+    [a.latitude, a.longitude]
+  end
+
+  private
+
+  def self.parse_reverse_geocode_results(address, results)
+    if geo = results.first
+      address.city = geo.city
+      address.state = geo.state
+      address.zip = geo.postal_code
+    end
+
+    address
   end
 end
