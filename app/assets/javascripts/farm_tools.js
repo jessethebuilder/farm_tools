@@ -1,9 +1,8 @@
 //= require vendor/enquire
-//= require bootsy
+// require bootsy
 //= require core
 //= require behaviors
 //= require quick_options
-//= require bootstrap_scripts
 
 //Toolbox ---------------------------------------------
 function splitPath(path){

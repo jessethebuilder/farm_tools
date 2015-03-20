@@ -26,9 +26,11 @@ group :test do
   gem 'launchy', '~> 2.3.0'
   #gem 'webrat'
 
-  gem 'bootsy'
 
 end
+
+gem 'bootsy'
+
 
 gem 'tzinfo-data'
 

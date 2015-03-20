@@ -9,6 +9,9 @@ Dummy::Application.routes.draw do
 
   root :to => 'test_models#new'
 
+  mount Bootsy::Engine => '/bootsy', as: 'bootsy'
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

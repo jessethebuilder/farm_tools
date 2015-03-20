@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
   resources :farm_notes
 
-  mount Bootsy::Engine => '/bootsy', as: 'bootsy'
+  #include this route in any app using NewsStories
+  # mount Bootsy::Engine => '/bootsy', as: 'bootsy'
 
   resources :news_stories
 
