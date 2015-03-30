@@ -28,4 +28,8 @@ module HtmlParts
                                                           :multiple => multiple, :accepts_remote => accepts_remote_url,
                                                           :alt_label => alt_label}
   end
+
+  def mountable_image_select(form_builder)
+    image_select(form_builder, :image, version: :thumb)
+  end
 end
