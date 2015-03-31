@@ -14,6 +14,7 @@ require 'farm_tools/html_tools'
 module FarmTools
   include HtmlTools
   include HtmlParts
+
 end
 
 
