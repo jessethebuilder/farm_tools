@@ -19,6 +19,12 @@ module HtmlTools
     end
   end
 
+  def hash_for_select(hash, selected_items: nil)
+    options = []
+    hash.each{ |k, v| options << [k, v] }
+    options_for_select(options, selected_items)
+  end
+
   def array_of_hashes_for_select(array, id_key, value_key, selected_items: nil)
     options = array.collect{ |hash| [hash[id_key], hash[value_key]] }
     options_for_select(options, selected_items)
