@@ -7,10 +7,4 @@ class NewsStory < ActiveRecord::Base
   use_farm_slugs :id_method => :title
 
   mount_uploader :main_news_story_image, MainNewsStoryImageUploader, :dependent => :destroy
-
-  # after_validation do |r|
-  #   unless r.valid?
-  #     r.write_attribute(:published, false)
-  #   end
-  # end
 end
