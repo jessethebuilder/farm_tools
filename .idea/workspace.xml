@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d09e1885-e9e5-46d3-afd4-3a8b55f6a20e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/farm_tools/html_tools.rb" afterPath="$PROJECT_DIR$/lib/farm_tools/html_tools.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="farm_tools.iws" />
@@ -138,8 +137,8 @@
       <file leaf-file-name="html_tools.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/farm_tools/html_tools.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.58285713" vertical-offset="0" max-vertical-offset="1173">
-              <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.55857146" vertical-offset="0" max-vertical-offset="1173">
+              <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -810,12 +809,6 @@
       <option name="number" value="Default" />
       <updated>1385619019499</updated>
     </task>
-    <task id="LOCAL-00109" summary="Refactor Facebook Helpers">
-      <created>1425622793791</created>
-      <option name="number" value="00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1425622793791</updated>
-    </task>
     <task id="LOCAL-00110" summary="Refactor Facebook Helpers">
       <created>1425623963853</created>
       <option name="number" value="00110" />
@@ -1104,7 +1097,13 @@
       <option name="project" value="LOCAL" />
       <updated>1433709599745</updated>
     </task>
-    <option name="localTasksCounter" value="158" />
+    <task id="LOCAL-00158" summary="States">
+      <created>1433709951091</created>
+      <option name="number" value="00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1433709951091</updated>
+    </task>
+    <option name="localTasksCounter" value="159" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1570,8 +1569,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/farm_tools/html_tools.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58285713" vertical-offset="0" max-vertical-offset="1173">
-          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.55857146" vertical-offset="0" max-vertical-offset="1173">
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
           <folding />
         </state>
       </provider>
