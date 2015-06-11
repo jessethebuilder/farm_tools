@@ -13,7 +13,7 @@
     });
 
     <% if use_authentication -%>
-    //Check for the login status of the user. Not necessary where not login scheme is specified
+    //Check for the login status of the user. Not necessary where login scheme is not specified
       FB.getLoginStatus(function(response) {
         facebookLoginStatusChangeCallback(response);
       });

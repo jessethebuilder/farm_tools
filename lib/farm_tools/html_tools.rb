@@ -55,10 +55,11 @@ module HtmlTools
     %Q|<link rel="canonical" href="#{url}">|.html_safe
   end
 
-  def head_info(title, description, image_url, resource_type, site_name, url = request.url, facebook_app_id: nil)
+  def head_info(title, description, image_url, resource_type, site_name, url = request.url, keywords: nil, facebook_app_id: nil)
     html = "<title>#{title}</title>".html_safe
     html += facebook_meta_tags(title, description, image_url, resource_type, site_name, url, :facebook_app_id => facebook_app_id)
     html += canonical_link(url)
+    html += meta_tags(:keywords => keywords) if keywords
     content_for :head_info, html
   end
 end
