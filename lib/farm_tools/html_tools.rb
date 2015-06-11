@@ -56,7 +56,7 @@ module HtmlTools
   end
 
   def head_info(title, description, image_url, resource_type, site_name, url = request.url,
-                keywords: nil, facebook_app_id: nil, additional_meta_tags = {})
+                keywords: nil, facebook_app_id: nil, additional_meta_tags: {})
     html = "<title>#{title}</title>".html_safe
     html += facebook_meta_tags(title, description, image_url, resource_type, site_name, url, :facebook_app_id => facebook_app_id)
     html += canonical_link(url)
