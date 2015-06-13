@@ -5,7 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d09e1885-e9e5-46d3-afd4-3a8b55f6a20e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/news_stories/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/news_stories/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/public/uploads/news_story/main_news_story_image/1/gym_still_2_top_half.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/public/uploads/news_story/main_news_story_image/2/gym_still_2_top_half.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/public/uploads/news_story/main_news_story_image/1/large_gym_still_2_top_half.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/public/uploads/news_story/main_news_story_image/2/large_gym_still_2_top_half.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/public/uploads/news_story/main_news_story_image/1/medium_gym_still_2_top_half.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/public/uploads/news_story/main_news_story_image/2/medium_gym_still_2_top_half.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/public/uploads/news_story/main_news_story_image/1/small_gym_still_2_top_half.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/public/uploads/news_story/main_news_story_image/2/small_gym_still_2_top_half.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/public/uploads/news_story/main_news_story_image/1/thumb_gym_still_2_top_half.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/public/uploads/news_story/main_news_story_image/2/thumb_gym_still_2_top_half.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/public/uploads/news_story/main_news_story_image/1/xlarge_gym_still_2_top_half.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/dummy/public/uploads/news_story/main_news_story_image/2/xlarge_gym_still_2_top_half.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20150613191920_add_keywords_to_news_story.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/factories/farm_tools_mountable_images.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/models/farm_tools/mountable_image_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="farm_tools.iws" />
@@ -81,7 +95,7 @@
       <file leaf-file-name="20150613191920_add_keywords_to_news_story.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db/migrate/20150613191920_add_keywords_to_news_story.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.06439394" vertical-offset="0" max-vertical-offset="264">
+            <state vertical-scroll-proportion="0.024460431" vertical-offset="0" max-vertical-offset="695">
               <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
               <folding />
             </state>
@@ -795,12 +809,6 @@
       <option name="number" value="Default" />
       <updated>1385619019499</updated>
     </task>
-    <task id="LOCAL-00118" summary="Refactor Facebook Helpers">
-      <created>1425647154347</created>
-      <option name="number" value="00118" />
-      <option name="project" value="LOCAL" />
-      <updated>1425647154347</updated>
-    </task>
     <task id="LOCAL-00119" summary="Refactor Facebook Helpers">
       <created>1425676895041</created>
       <option name="number" value="00119" />
@@ -1089,7 +1097,13 @@
       <option name="project" value="LOCAL" />
       <updated>1434059307537</updated>
     </task>
-    <option name="localTasksCounter" value="167" />
+    <task id="LOCAL-00167" summary="Add additional metatags to :head_info">
+      <created>1434223170280</created>
+      <option name="number" value="00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1434223170281</updated>
+    </task>
+    <option name="localTasksCounter" value="168" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1114,17 +1128,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1598" height="858" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.51012146" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32839838" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45209175" sideWeight="0.8296915" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32793522" sideWeight="0.8209243" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38946685" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38946685" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39811066" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5961273" sideWeight="0.8908858" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5961273" sideWeight="0.8908858" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49392712" sideWeight="0.17030849" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293011" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1133,7 +1148,6 @@
       <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293011" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32253712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.51012146" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1548,7 +1562,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20150613191920_add_keywords_to_news_story.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06439394" vertical-offset="0" max-vertical-offset="264">
+        <state vertical-scroll-proportion="0.024460431" vertical-offset="0" max-vertical-offset="695">
           <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
           <folding />
         </state>
