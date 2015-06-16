@@ -1,13 +1,12 @@
 module HtmlParts
-  def quick_options(*options)
+  def quick_options(*options, ajax: false)
     html = initiate_quick_options
-    #html += '<div class="row">'
     html += '<ul class="quick_options">'
 
     options << yield if block_given?
     options.each do |o|
       html += '<li>'
-      html += link_to o[0], o[1]
+      html += link_to o[0], o[1], remote: ajax
       html += '</li>'
     end
     html += '</ul>'
