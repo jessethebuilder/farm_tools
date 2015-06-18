@@ -17,9 +17,9 @@ class Address < ActiveRecord::Base
     s.length > 2 ? s.chop.chop : s
   end
 
-  def google_embedded_map(api_key, prefix: nil)
+  def google_embedded_map(api_key, prefix: nil, zoom: 16)
     html = '<iframe src="'
-    html += google_embedded_map_url(api_key, prefix: prefix)
+    html += google_embedded_map_url(api_key, prefix: prefix, zoom: zoom)
     html += '"'
 
     html.html_safe
