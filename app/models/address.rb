@@ -19,7 +19,7 @@ class Address < ActiveRecord::Base
 
   def google_embedded_map(api_key, prefix: nil)
     html = '<iframe src="'
-    html += google_embedded_map_url(api_key, prefix)
+    html += google_embedded_map_url(api_key, prefix: prefix)
     html += '"'
 
     html.html_safe
