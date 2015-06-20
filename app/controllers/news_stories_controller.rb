@@ -1,5 +1,4 @@
 class NewsStoriesController < ApplicationController
-  # include NewsStoriesControllerHelper
   #These routes work for creating simple news stories. If you need to change these routes, just put
   #controllers/news_stories_controller.rb in your app folder. Cut and paste this for a template if you like.
 
